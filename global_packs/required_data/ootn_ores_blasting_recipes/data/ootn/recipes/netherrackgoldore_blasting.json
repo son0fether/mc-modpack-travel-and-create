@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "ootn:netherrackgoldore"
-  },
-  "result": "minecraft:gold_ore",
-  "experience": 0.1,
-  "cookingtime": 100
-}
