@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 6,
+    "description": "Adds 3 sandstone recipes to fix https://github.com/AOCAWOL/BYG/issues/1005 until a release with the official fix"
+  }
+}

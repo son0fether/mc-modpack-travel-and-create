@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:blasting",
+  "result": {
+    "item": "minecraft:air",
+    "count": 1
+  }
+}

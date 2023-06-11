@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "ootn:netherrackredstoneore"
+  },
+  "result": "minecraft:redstone_ore",
+  "experience": 0.1,
+  "cookingtime": 100
+}

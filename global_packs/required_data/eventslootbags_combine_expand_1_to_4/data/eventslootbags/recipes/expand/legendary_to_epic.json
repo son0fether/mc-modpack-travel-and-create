@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "eventslootbags:legendary_lootbag"}
+  ],
+  "result": {
+    "item": "eventslootbags:epic_lootbag",
+    "count": 4
+  }
+}

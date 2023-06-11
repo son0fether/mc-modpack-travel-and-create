@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+	{
+	  "tag": "bookshelf:shears"
+	},
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:clock"
+    }
+  ],
+  "result": {
+    "item": "additionalbanners:balance",
+    "count": 1
+  }
+}
