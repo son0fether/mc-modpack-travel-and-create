@@ -1,0 +1,30 @@
+{
+  "parent": "tac_bingo:eat_food/row1/row1_col2_pineapple_fried_rice",
+  "display": {
+    "icon": {
+      "item": "alexsdelight:bunfungus_sandwich"
+    },
+    "title": {
+      "translate": "Eat a Bunfungus Sandwich"
+    },
+    "description": {
+      "translate": "From Alex's Delight"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eat_food": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "alexsdelight:bunfungus_sandwich"
+          ]
+        }
+      }
+    }
+  }
+}

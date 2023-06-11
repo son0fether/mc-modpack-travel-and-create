@@ -1,0 +1,51 @@
+{
+  "parent": "tac_bingo:fair_challenges/row4/row4_col3_fail_boss_capture",
+  "display": {
+    "icon": {
+      "item": "trophymanager:trophy",
+      "nbt": "{TrophyType: \"entity\", TrophyEntity: {entityType: \"twilightforest:quest_ram\"}}"
+    },
+    "title": {
+      "translate": "Earn 'Consummate Baaahs'"
+    },
+    "description": {
+      "translate": "Give the Quest Ram everything it wants in Twilight Forest"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "twilightforest:quest_ram": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

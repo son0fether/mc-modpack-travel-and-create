@@ -1,0 +1,30 @@
+{
+  "parent": "tac_bingo:eat_food/row2/row2_col3_salmonberry_gummy",
+  "display": {
+    "icon": {
+      "item": "byg:aloe_vera_juice"
+    },
+    "title": {
+      "translate": "Drink some Aloe Vera Juice"
+    },
+    "description": {
+      "translate": "From Oh The Biomes You'll Go"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eat_food": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "byg:aloe_vera_juice"
+          ]
+        }
+      }
+    }
+  }
+}

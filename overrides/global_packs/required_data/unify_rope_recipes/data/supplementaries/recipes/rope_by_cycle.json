@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "farmersdelight:rope"
+    }
+  ],
+  "result": {
+    "item": "supplementaries:rope",
+    "count": 1
+  }
+}

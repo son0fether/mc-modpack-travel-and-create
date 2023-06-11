@@ -1,0 +1,35 @@
+{
+  "parent": "tac_bingo:capture_mobs/row3/row3_col1_tropical_slime",
+  "display": {
+    "icon": {
+      "item": "portablemobs:master_capture_cell",
+	  "nbt": "{has_entity: 1b, entity_type: \"alexsmobs:snow_leopard\"}"
+    },
+    "title": {
+      "translate": "Capture a Snow Leopard"
+    },
+    "description": {
+      "translate": "Not initially hostile, found in mountainous snowy areas"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "capture_mob": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "portablemobs:basic_capture_cell",
+            "portablemobs:master_capture_cell"
+          ]
+        },
+        "entity": {
+          "type": "alexsmobs:snow_leopard"
+        }
+      }
+    }
+  }
+}

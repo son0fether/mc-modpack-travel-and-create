@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "eventslootbags:common_lootbag"},
+    {"item": "eventslootbags:common_lootbag"},
+    {"item": "eventslootbags:common_lootbag"},
+    {"item": "eventslootbags:common_lootbag"}
+  ],
+  "result": {
+    "item": "eventslootbags:uncommon_lootbag",
+    "count": 1
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "parent": "tac_bingo:grand_challenges/row4/row4_col2_two_birds_one_arrow",
+  "display": {
+    "icon": {
+      "item": "trophymanager:trophy",
+      "nbt": "{TrophyType: \"entity\", TrophyEntity: {entityType: \"alexsmobs:farseer\"}}"
+    },
+    "title": {
+      "translate": "Earn 'Farland Security'"
+    },
+    "description": {
+      "translate": "Use the Shattered Dimensional Carver to reach the realms of the Farseer and survive"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "click_on_bell_with_advancement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+			]
+          }
+        },
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "alexsmobs:alexsmobs/farseer": true
+                }
+              }
+            }
+          }
+		]
+      }
+    }
+  }
+}

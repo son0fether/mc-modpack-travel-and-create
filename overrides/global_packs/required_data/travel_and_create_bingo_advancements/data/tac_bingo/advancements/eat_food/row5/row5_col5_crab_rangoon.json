@@ -1,0 +1,30 @@
+{
+  "parent": "tac_bingo:eat_food/row5/row5_col4_fish_taco",
+  "display": {
+    "icon": {
+      "item": "delightful:crab_rangoon"
+    },
+    "title": {
+      "translate": "Eat Crab Rangoon"
+    },
+    "description": {
+      "translate": "From Delightful"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eat_food": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "delightful:crab_rangoon"
+          ]
+        }
+      }
+    }
+  }
+}

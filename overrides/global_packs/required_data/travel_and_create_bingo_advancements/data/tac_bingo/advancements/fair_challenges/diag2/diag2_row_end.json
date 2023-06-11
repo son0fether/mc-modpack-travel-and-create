@@ -1,0 +1,34 @@
+{
+  "parent": "tac_bingo:fair_challenges/diag2/diag2_row1_col5",
+  "display": {
+    "icon": {
+      "item": "minecraft:stick"
+    },
+    "title": {
+      "translate": "End of the Row"
+    },
+    "description": {
+      "translate": "Shows advancements in this row"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "click_on_bell": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "parent": "tac_bingo:fair_challenges/row5/row5_row_start",
+  "display": {
+    "icon": {
+      "item": "minecraft:ghast_tear"
+    },
+    "title": {
+      "translate": "Earn 'Return to Sender'"
+    },
+    "description": {
+      "translate": "Smack a Ghast's fireball back to hit it"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "minecraft:nether/return_to_sender": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

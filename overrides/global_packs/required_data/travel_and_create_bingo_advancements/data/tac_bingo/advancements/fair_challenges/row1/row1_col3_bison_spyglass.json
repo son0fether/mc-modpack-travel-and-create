@@ -1,0 +1,50 @@
+{
+  "parent": "tac_bingo:fair_challenges/row1/row1_col2_hit_instrument_mob_with_its_own",
+  "display": {
+    "icon": {
+      "item": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "Earn 'Perfect View in the Plains'"
+    },
+    "description": {
+      "translate": "From Alex's Mobs, view a Bison with a Spyglass"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "alexsmobs:alexsmobs/bison_spyglass": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

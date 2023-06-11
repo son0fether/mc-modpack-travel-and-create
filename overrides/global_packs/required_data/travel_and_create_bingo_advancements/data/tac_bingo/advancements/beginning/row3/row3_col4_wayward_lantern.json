@@ -1,0 +1,30 @@
+{
+  "parent": "tac_bingo:beginning/row3/row3_col3_free_space",
+  "display": {
+    "icon": {
+      "item": "domesticationinnovation:wayward_lantern"
+    },
+    "title": {
+      "translate": "Craft a Wayward Lantern to bring pets home"
+    },
+    "description": {
+      "translate": "From Domestication Innovation"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "have_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["domesticationinnovation:wayward_lantern"]
+          }
+        ]
+      }
+    }
+  }
+}

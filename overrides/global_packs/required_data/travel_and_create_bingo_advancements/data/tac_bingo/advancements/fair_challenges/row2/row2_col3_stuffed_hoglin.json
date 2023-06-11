@@ -1,0 +1,33 @@
+{
+  "parent": "tac_bingo:fair_challenges/row2/row2_col2_pineapple_juice_on_beach",
+  "display": {
+    "icon": {
+      "item": "nethersdelight:stuffed_hoglin"
+    },
+    "title": {
+      "translate": "Eat a serving of a Stuffed Hoglin"
+    },
+    "description": {
+      "translate": "From Nether's Delight (place it and use a knife to carve it)"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fair_challenges": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "nethersdelight:hoglin_ear",
+            "nethersdelight:plate_of_stuffed_hoglin_snout",
+            "nethersdelight:plate_of_stuffed_hoglin_ham",
+            "nethersdelight:plate_of_stuffed_hoglin_roast"
+          ]
+        }
+      }
+    }
+  }
+}

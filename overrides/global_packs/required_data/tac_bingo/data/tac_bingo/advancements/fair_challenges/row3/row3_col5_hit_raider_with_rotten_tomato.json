@@ -1,0 +1,50 @@
+{
+  "parent": "tac_bingo:fair_challenges/row3/row3_col4_vibe_check",
+  "display": {
+    "icon": {
+      "item": "farmersdelight:rotten_tomato"
+    },
+    "title": {
+      "translate": "Earn 'Boo! Hiss!'"
+    },
+    "description": {
+      "translate": "Hit a raider with a Rotten Tomato from Farmer's Delight"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "farmersdelight:main/hit_raider_with_rotten_tomato": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

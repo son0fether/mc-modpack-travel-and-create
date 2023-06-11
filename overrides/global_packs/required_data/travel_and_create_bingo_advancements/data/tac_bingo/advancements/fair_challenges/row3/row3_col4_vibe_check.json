@@ -1,0 +1,51 @@
+{
+  "parent": "tac_bingo:fair_challenges/row3/row3_col3_free_space",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion",
+	  "nbt": "{Potion: \"upgrade_aquatic:vibing\"}"
+    },
+    "title": {
+      "translate": "Earn 'Vibe Check'"
+    },
+    "description": {
+      "translate": "Make a Potion of Vibing from Upgrade Aquatic"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "upgrade_aquatic:nether/vibe_check": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

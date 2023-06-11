@@ -1,0 +1,30 @@
+{
+  "parent": "tac_bingo:eat_food/row4/row4_col4_midori_roll_slice",
+  "display": {
+    "icon": {
+      "item": "create:sweet_roll"
+    },
+    "title": {
+      "translate": "Eat a Sweet Roll"
+    },
+    "description": {
+      "translate": "From Create"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eat_food": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "create:sweet_roll"
+          ]
+        }
+      }
+    }
+  }
+}

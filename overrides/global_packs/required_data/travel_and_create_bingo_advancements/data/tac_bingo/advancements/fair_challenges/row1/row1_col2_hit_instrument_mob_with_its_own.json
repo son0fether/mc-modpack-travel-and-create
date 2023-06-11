@@ -1,0 +1,236 @@
+{
+  "parent": "tac_bingo:fair_challenges/row1/row1_col1_hero_of_the_village",
+  "display": {
+    "icon": {
+      "item": "instrumentalmobs:tuba"
+    },
+    "title": {
+      "translate": "No, I'm First Chair"
+    },
+    "description": {
+      "translate": "Slap an Instrumental Mob with its own instrument (punch, not the normal right-click area push)"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hit_cymbal_husk": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+			  "equipment": {
+                "mainhand": {
+                  "items": [
+                    "instrumentalmobs:cymbal",
+                    "instrumentalmobs:cymbals"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "instrumentalmobs:cymbal_husk"
+            }
+          }
+        ]
+      }
+    },
+    "hit_drum_zombie": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+			  "equipment": {
+                "mainhand": {
+                  "items": [
+                    "instrumentalmobs:drum"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "instrumentalmobs:drum_zombie"
+            }
+          }
+        ]
+      }
+    },
+    "hit_french_horn_creeper": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+			  "equipment": {
+                "mainhand": {
+                  "items": [
+                    "instrumentalmobs:french_horn"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "instrumentalmobs:french_horn_creeper"
+            }
+          }
+        ]
+      }
+    },
+    "hit_maraca_spider": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+			  "equipment": {
+                "mainhand": {
+                  "items": [
+                    "instrumentalmobs:maraca",
+                    "instrumentalmobs:maracas"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "instrumentalmobs:maraca_spider"
+            }
+          }
+        ]
+      }
+    },
+    "hit_microphone_ghast": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+			  "equipment": {
+                "mainhand": {
+                  "items": [
+                    "instrumentalmobs:microphone"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "instrumentalmobs:microphone_ghast"
+            }
+          }
+        ]
+      }
+    },
+    "hit_tuba_enderman": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+			  "equipment": {
+                "mainhand": {
+                  "items": [
+                    "instrumentalmobs:tuba"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "instrumentalmobs:tuba_enderman"
+            }
+          }
+        ]
+      }
+    },
+    "hit_xylophone_skeleton": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+			  "equipment": {
+                "mainhand": {
+                  "items": [
+                    "instrumentalmobs:xylophone"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "instrumentalmobs:xylophone_skeleton"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+	  "hit_cymbal_husk",
+	  "hit_drum_zombie",
+	  "hit_french_horn_creeper",
+	  "hit_maraca_spider",
+	  "hit_microphone_ghast",
+	  "hit_tuba_enderman",
+	  "hit_xylophone_skeleton"
+	]
+  ]
+}

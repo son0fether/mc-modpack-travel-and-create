@@ -1,0 +1,30 @@
+{
+  "parent": "tac_bingo:eat_food/row4/row4_col1_sugar_cane",
+  "display": {
+    "icon": {
+      "item": "minecraft:honey_bottle"
+    },
+    "title": {
+      "translate": "Eat an entire Honey Bottle"
+    },
+    "description": {
+      "translate": "From Minecraft (don't give honey to infants under 1 year old)"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eat_food": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honey_bottle"
+          ]
+        }
+      }
+    }
+  }
+}

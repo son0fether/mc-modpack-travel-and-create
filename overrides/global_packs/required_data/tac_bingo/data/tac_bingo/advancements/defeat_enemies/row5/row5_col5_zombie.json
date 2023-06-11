@@ -1,0 +1,31 @@
+{
+  "parent": "tac_bingo:defeat_enemies/row5/row5_col4_magma_cube",
+  "display": {
+    "icon": {
+      "item": "minecraft:zombie_spawn_egg"
+    },
+    "title": {
+      "translate": "Kill 100 Zombies"
+    },
+    "description": {
+      "translate": "Tracked in /scoreboard"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_mob": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie"
+		}
+	  }
+    }
+  },
+  "rewards": {
+	"function": "tac_bingo:defeat_enemies/increment_and_check/row5/row5_col5_zombie"
+  }
+}

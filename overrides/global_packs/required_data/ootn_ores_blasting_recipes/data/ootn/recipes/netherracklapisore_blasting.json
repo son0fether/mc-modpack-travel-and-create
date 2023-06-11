@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "ootn:netherracklapisore"
+  },
+  "result": "minecraft:lapis_ore",
+  "experience": 0.1,
+  "cookingtime": 100
+}

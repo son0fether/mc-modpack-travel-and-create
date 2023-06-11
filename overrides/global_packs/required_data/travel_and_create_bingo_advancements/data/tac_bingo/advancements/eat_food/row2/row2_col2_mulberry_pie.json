@@ -1,0 +1,30 @@
+{
+  "parent": "tac_bingo:eat_food/row2/row2_col1_sinigang",
+  "display": {
+    "icon": {
+      "item": "upgrade_aquatic:mulberry_pie"
+    },
+    "title": {
+      "translate": "Eat a Mulberry Pie"
+    },
+    "description": {
+      "translate": "From Upgrade Aquatic"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eat_food": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "upgrade_aquatic:mulberry_pie"
+          ]
+        }
+      }
+    }
+  }
+}

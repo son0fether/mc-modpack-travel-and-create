@@ -1,0 +1,50 @@
+{
+  "parent": "tac_bingo:fair_challenges/row2/row2_col3_stuffed_hoglin",
+  "display": {
+    "icon": {
+      "item": "quark:blank_rune"
+    },
+    "title": {
+      "translate": "Earn 'Glorious Eminence'"
+    },
+    "description": {
+      "translate": "Apply a Quark rune to an enchanted item to change its glow (using an Anvil)"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "quark:apply_color_rune": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

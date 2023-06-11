@@ -1,0 +1,30 @@
+{
+  "parent": "tac_bingo:eat_food/row4/row4_col3_chorus_fruit_popsicle",
+  "display": {
+    "icon": {
+      "item": "culturaldelights:midori_roll_slice"
+    },
+    "title": {
+      "translate": "Eat a Midori Roll Slice"
+    },
+    "description": {
+      "translate": "From Cultural Delights"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eat_food": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "culturaldelights:midori_roll_slice"
+          ]
+        }
+      }
+    }
+  }
+}

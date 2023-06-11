@@ -1,0 +1,30 @@
+{
+  "parent": "tac_bingo:beginning/row4/row4_col2_slime_arrow",
+  "display": {
+    "icon": {
+      "item": "magnumtorch:diamond_magnum_torch"
+    },
+    "title": {
+      "translate": "Craft a Diamond Magnum Torch"
+    },
+    "description": {
+      "translate": "From Magnum Torch"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "have_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["magnumtorch:diamond_magnum_torch"]
+          }
+        ]
+      }
+    }
+  }
+}

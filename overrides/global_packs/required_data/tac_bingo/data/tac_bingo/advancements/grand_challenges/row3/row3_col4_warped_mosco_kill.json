@@ -1,0 +1,50 @@
+{
+  "parent": "tac_bingo:grand_challenges/row3/row3_col3_free_space",
+  "display": {
+    "icon": {
+      "item": "trophymanager:trophy",
+      "nbt": "{TrophyType: \"entity\", TrophyEntity: {entityType: \"alexsmobs:warped_mosco\"}}"
+    },
+    "title": {
+      "translate": "Earn 'Destroyer of Chads'"
+    },
+    "description": {
+      "translate": "Summon and kill a Warped Mosco from Alex's Mobs"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "click_on_bell_with_advancement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+			]
+          }
+        },
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "alexsmobs:alexsmobs/warped_mosco_kill": true
+                }
+              }
+            }
+          }
+		]
+      }
+    }
+  }
+}

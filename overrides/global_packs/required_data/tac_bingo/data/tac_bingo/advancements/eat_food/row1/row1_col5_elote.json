@@ -1,0 +1,30 @@
+{
+  "parent": "tac_bingo:eat_food/row1/row1_col4_bar_of_ruby_chocolate",
+  "display": {
+    "icon": {
+      "item": "culturaldelights:elote"
+    },
+    "title": {
+      "translate": "Eat Elote"
+    },
+    "description": {
+      "translate": "From Cultural Delights"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eat_food": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "culturaldelights:elote"
+          ]
+        }
+      }
+    }
+  }
+}

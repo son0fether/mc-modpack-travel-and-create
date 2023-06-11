@@ -1,0 +1,31 @@
+{
+  "parent": "tac_bingo:defeat_enemies/row3/row3_col4_pillager",
+  "display": {
+    "icon": {
+      "item": "alexsmobs:spawn_egg_centipede"
+    },
+    "title": {
+      "translate": "Kill 100 Cave Centipedes"
+    },
+    "description": {
+      "translate": "Tracked in /scoreboard"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_mob": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "alexsmobs:centipede_head"
+		}
+	  }
+    }
+  },
+  "rewards": {
+	"function": "tac_bingo:defeat_enemies/increment_and_check/row3/row3_col5_centipede"
+  }
+}

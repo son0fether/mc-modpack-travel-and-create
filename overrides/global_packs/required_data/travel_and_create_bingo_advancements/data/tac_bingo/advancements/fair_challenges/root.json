@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "byg:rainbow_eucalyptus_crafting_table"
+    },
+    "title": {
+      "text": "Bingo: Fair Challenges"
+    },
+    "description": {
+      "text": "Ring a Bell to play bingo and complete challenges"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+  },
+  "criteria": {
+    "logged_in": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

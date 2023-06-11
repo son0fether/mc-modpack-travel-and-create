@@ -1,0 +1,30 @@
+{
+  "parent": "tac_bingo:eat_food/row3/row3_col1_experiment_115",
+  "display": {
+    "icon": {
+      "item": "infernalexp:blindsight_tongue_stew"
+    },
+    "title": {
+      "translate": "Eat Fungus & Tongue Stew"
+    },
+    "description": {
+      "translate": "From Infernal Expansion"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eat_food": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "infernalexp:blindsight_tongue_stew"
+          ]
+        }
+      }
+    }
+  }
+}

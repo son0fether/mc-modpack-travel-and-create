@@ -1,0 +1,31 @@
+{
+  "parent": "tac_bingo:defeat_enemies/row2/row2_col4_wither_skeleton",
+  "display": {
+    "icon": {
+      "item": "unusualend:undead_enderling_spawn_egg"
+    },
+    "title": {
+      "translate": "Kill 100 Undead Enderlings"
+    },
+    "description": {
+      "translate": "Tracked in /scoreboard"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_mob": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "unusualend:undead_enderling"
+		}
+	  }
+    }
+  },
+  "rewards": {
+	"function": "tac_bingo:defeat_enemies/increment_and_check/row2/row2_col5_undead_enderling"
+  }
+}

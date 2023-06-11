@@ -1,0 +1,133 @@
+{
+  "parent": "tac_bingo:beginning/row2/row2_col4_iron_backpack",
+  "display": {
+    "icon": {
+      "item": "botania:white_mystical_flower",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "Collect a mystical flower of each color"
+    },
+    "description": {
+      "translate": "From Botania"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "have_white_flower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": [
+			  "botania:white_mystical_flower",
+			  "botania:white_double_flower"
+	  ]}]}
+    },
+    "have_orange_flower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": [
+			  "botania:orange_mystical_flower",
+			  "botania:orange_double_flower"
+	  ]}]}
+    },
+    "have_magenta_flower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": [
+			  "botania:magenta_mystical_flower",
+			  "botania:magenta_double_flower"
+	  ]}]}
+    },
+    "have_light_blue_flower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": [
+			  "botania:light_blue_mystical_flower",
+			  "botania:light_blue_double_flower"
+	  ]}]}
+    },
+    "have_yellow_flower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": [
+			  "botania:yellow_mystical_flower",
+			  "botania:yellow_double_flower"
+	  ]}]}
+    },
+    "have_lime_flower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": [
+			  "botania:lime_mystical_flower",
+			  "botania:lime_double_flower"
+	  ]}]}
+    },
+    "have_pink_flower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": [
+			  "botania:pink_mystical_flower",
+			  "botania:pink_double_flower"
+	  ]}]}
+    },
+    "have_gray_flower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": [
+			  "botania:gray_mystical_flower",
+			  "botania:gray_double_flower"
+	  ]}]}
+    },
+    "have_light_gray_flower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": [
+			  "botania:light_gray_mystical_flower",
+			  "botania:light_gray_double_flower"
+	  ]}]}
+    },
+    "have_cyan_flower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": [
+			  "botania:cyan_mystical_flower",
+			  "botania:cyan_double_flower"
+	  ]}]}
+    },
+    "have_purple_flower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": [
+			  "botania:purple_mystical_flower",
+			  "botania:purple_double_flower"
+	  ]}]}
+    },
+    "have_blue_flower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": [
+			  "botania:blue_mystical_flower",
+			  "botania:blue_double_flower"
+	  ]}]}
+    },
+    "have_brown_flower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": [
+			  "botania:brown_mystical_flower",
+			  "botania:brown_double_flower"
+	  ]}]}
+    },
+    "have_green_flower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": [
+			  "botania:green_mystical_flower",
+			  "botania:green_double_flower"
+	  ]}]}
+    },
+    "have_red_flower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": [
+			  "botania:red_mystical_flower",
+			  "botania:red_double_flower"
+	  ]}]}
+    },
+    "have_black_flower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": [
+			  "botania:black_mystical_flower",
+			  "botania:black_double_flower"
+	  ]}]}
+    }
+  }
+}

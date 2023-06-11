@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "morevillagers:blueprint_table"
+    },
+    "title": {
+      "text": "Bingo: Grand Challenges"
+    },
+    "description": {
+      "text": "Ring a Bell to play bingo and complete grand, lengthy challenges"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+  },
+  "criteria": {
+    "logged_in": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

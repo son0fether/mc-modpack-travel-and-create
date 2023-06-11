@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+	{
+	  "tag": "bookshelf:shears"
+	},
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "item": "additionalbanners:waterfall",
+    "count": 1
+  }
+}

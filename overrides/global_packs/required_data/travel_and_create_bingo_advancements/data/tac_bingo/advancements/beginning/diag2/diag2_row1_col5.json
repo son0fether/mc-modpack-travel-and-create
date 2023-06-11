@@ -1,0 +1,49 @@
+{
+  "parent": "tac_bingo:beginning/diag2/diag2_row2_col4",
+  "display": {
+    "icon": {
+      "item": "mermod:sea_necklace"
+    },
+    "title": {
+      "translate": "Down to Right: Row 1, Column 5"
+    },
+    "description": {
+      "translate": "Upper left to lower right"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "tac_bingo:beginning/row1/row1_col5_sea_necklace": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "tac_bingo:defeat_enemies/row4/row4_col1_ghast",
+  "display": {
+    "icon": {
+      "item": "earthtojavamobs:skeleton_wolf_spawn_egg"
+    },
+    "title": {
+      "translate": "Kill 100 Skeleton Wolves"
+    },
+    "description": {
+      "translate": "Tracked in /scoreboard"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_mob": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "earthtojavamobs:skeleton_wolf"
+		}
+	  }
+    }
+  },
+  "rewards": {
+	"function": "tac_bingo:defeat_enemies/increment_and_check/row4/row4_col2_skeleton_wolf"
+  }
+}

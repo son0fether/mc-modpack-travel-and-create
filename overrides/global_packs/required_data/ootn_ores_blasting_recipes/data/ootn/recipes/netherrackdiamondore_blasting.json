@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "ootn:netherrackdiamondore"
+  },
+  "result": "minecraft:diamond_ore",
+  "experience": 0.1,
+  "cookingtime": 100
+}

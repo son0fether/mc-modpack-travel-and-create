@@ -1,0 +1,76 @@
+{
+  "parent": "tac_bingo:defeat_enemies/rewards/bingo",
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "text": "Blackout!"
+    },
+    "description": {
+      "text": "Reward: Attack power up: addtional +1.5 heart of damage for all attacks"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "all_completed": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "tac_bingo:defeat_enemies/row1/row1_col1_creeper": true,
+                  "tac_bingo:defeat_enemies/row1/row1_col2_dropbear": true,
+                  "tac_bingo:defeat_enemies/row1/row1_col3_cave_spider": true,
+                  "tac_bingo:defeat_enemies/row1/row1_col4_wraith": true,
+                  "tac_bingo:defeat_enemies/row1/row1_col5_spider": true,
+                  "tac_bingo:defeat_enemies/row2/row2_col1_voline": true,
+                  "tac_bingo:defeat_enemies/row2/row2_col2_drowned": true,
+                  "tac_bingo:defeat_enemies/row2/row2_col3_corpor": true,
+                  "tac_bingo:defeat_enemies/row2/row2_col4_wither_skeleton": true,
+                  "tac_bingo:defeat_enemies/row2/row2_col5_undead_enderling": true,
+                  "tac_bingo:defeat_enemies/row3/row3_col1_blaze": true,
+                  "tac_bingo:defeat_enemies/row3/row3_col2_enderman": true,
+                  "tac_bingo:defeat_enemies/row3/row3_col3_free_space": true,
+                  "tac_bingo:defeat_enemies/row3/row3_col4_pillager": true,
+                  "tac_bingo:defeat_enemies/row3/row3_col5_centipede": true,
+                  "tac_bingo:defeat_enemies/row4/row4_col1_ghast": true,
+                  "tac_bingo:defeat_enemies/row4/row4_col2_skeleton_wolf": true,
+                  "tac_bingo:defeat_enemies/row4/row4_col3_maze_slime": true,
+                  "tac_bingo:defeat_enemies/row4/row4_col4_crimson_mosquito": true,
+                  "tac_bingo:defeat_enemies/row4/row4_col5_hoglin": true,
+                  "tac_bingo:defeat_enemies/row5/row5_col1_skeleton": true,
+                  "tac_bingo:defeat_enemies/row5/row5_col2_skelewag": true,
+                  "tac_bingo:defeat_enemies/row5/row5_col3_guardian": true,
+                  "tac_bingo:defeat_enemies/row5/row5_col4_magma_cube": true,
+                  "tac_bingo:defeat_enemies/row5/row5_col5_zombie": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+	"function": "tac_bingo:defeat_enemies/rewards/blackout_give_rewards"
+  }
+}

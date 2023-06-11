@@ -1,0 +1,49 @@
+{
+  "parent": "tac_bingo:eat_food/diag2/diag2_row3_col3",
+  "display": {
+    "icon": {
+      "item": "byg:aloe_vera_juice"
+    },
+    "title": {
+      "translate": "Down to Right: Row 2, Column 4"
+    },
+    "description": {
+      "translate": "Upper left to lower right"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "tac_bingo:eat_food/row2/row2_col4_aloe_vera_juice": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"            ]
+          }
+        }
+      }
+    }
+  }
+}

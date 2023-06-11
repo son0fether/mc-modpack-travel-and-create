@@ -1,0 +1,50 @@
+{
+  "parent": "tac_bingo:fair_challenges/row5/row5_col1_return_to_sender",
+  "display": {
+    "icon": {
+      "item": "minecraft:sculk_sensor"
+    },
+    "title": {
+      "translate": "Earn 'Sneak 100'"
+    },
+    "description": {
+      "translate": "Avoid detection by vibration from monsters or a sculk sensor"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "minecraft:adventure/avoid_vibration": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

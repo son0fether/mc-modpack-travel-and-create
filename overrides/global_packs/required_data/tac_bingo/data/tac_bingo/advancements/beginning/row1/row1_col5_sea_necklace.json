@@ -1,0 +1,30 @@
+{
+  "parent": "tac_bingo:beginning/row1/row1_col4_use_kelp",
+  "display": {
+    "icon": {
+      "item": "mermod:sea_necklace"
+    },
+    "title": {
+      "translate": "Craft a Sea Necklace"
+    },
+    "description": {
+      "translate": "From Mermod"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "have_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["mermod:sea_necklace"]
+          }
+        ]
+      }
+    }
+  }
+}

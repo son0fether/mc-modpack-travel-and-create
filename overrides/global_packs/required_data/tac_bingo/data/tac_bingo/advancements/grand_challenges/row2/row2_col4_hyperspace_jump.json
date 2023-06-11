@@ -1,0 +1,48 @@
+{
+  "parent": "tac_bingo:grand_challenges/row2/row2_col3_biomesoplenty_all_biomes",
+  "display": {
+    "icon": {
+      "item": "unusualend:gilded_pearl"
+    },
+    "title": {
+      "translate": "Earn 'Hyperspace Jump'"
+    },
+    "description": {
+      "translate": "Even though Waystones are faster, link a Gilded Pearl to a Teleportation Anchor from Unusual End"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "click_on_bell_with_advancement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"            ]
+          }
+        },
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "unusualend:hyperspace_jump": true
+                }
+              }
+            }
+          }
+		]
+      }
+    }
+  }
+}

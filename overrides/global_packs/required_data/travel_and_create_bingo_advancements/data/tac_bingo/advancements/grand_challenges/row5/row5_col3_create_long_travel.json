@@ -1,0 +1,50 @@
+{
+  "parent": "tac_bingo:grand_challenges/row5/row5_col2_oh_the_biomes_youll_go",
+  "display": {
+    "icon": {
+      "item": "minecraft:rail"
+    },
+    "title": {
+      "translate": "Earn 'Field Trip'"
+    },
+    "description": {
+      "translate": "Travel 5000 blocks in a Create train seat"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "create:long_travel": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

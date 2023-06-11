@@ -1,0 +1,51 @@
+{
+  "parent": "tac_bingo:fair_challenges/row4/row4_col1_sunbird_blessing",
+  "display": {
+    "icon": {
+      "item": "trophymanager:trophy",
+      "nbt": "{TrophyType: \"entity\", TrophyEntity: {entityType: \"minecraft:villager\"}}"
+    },
+    "title": {
+      "translate": "Earn 'Frequent Customer'"
+    },
+    "description": {
+      "translate": "Trade with every villager profession, including those from More Villagers"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "morevillagers:all_professions_traded": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

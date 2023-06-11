@@ -1,0 +1,31 @@
+{
+  "parent": "tac_bingo:defeat_enemies/row1/row1_col2_dropbear",
+  "display": {
+    "icon": {
+      "item": "minecraft:cave_spider_spawn_egg"
+    },
+    "title": {
+      "translate": "Kill 100 Cave Spiders"
+    },
+    "description": {
+      "translate": "Tracked in /scoreboard"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "kill_mob": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:cave_spider"
+		}
+	  }
+    }
+  },
+  "rewards": {
+	"function": "tac_bingo:defeat_enemies/increment_and_check/row1/row1_col3_cave_spider"
+  }
+}
