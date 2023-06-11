@@ -1,0 +1,50 @@
+{
+  "parent": "tac_bingo:fair_challenges/row1/row1_col3_bison_spyglass",
+  "display": {
+    "icon": {
+      "item": "minecraft:rail"
+    },
+    "title": {
+      "translate": "Earn 'Self-Driving Cart'"
+    },
+    "description": {
+      "translate": "Make a Create contraption that places rails as it goes"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "create:self_deploying": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

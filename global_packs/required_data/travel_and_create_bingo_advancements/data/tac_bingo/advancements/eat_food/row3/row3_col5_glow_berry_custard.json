@@ -1,0 +1,30 @@
+{
+  "parent": "tac_bingo:eat_food/row3/row3_col4_ratatouille",
+  "display": {
+    "icon": {
+      "item": "farmersdelight:glow_berry_custard"
+    },
+    "title": {
+      "translate": "Eat a Glow Berry Custard"
+    },
+    "description": {
+      "translate": "From Farmer's Delight"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eat_food": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "farmersdelight:glow_berry_custard"
+          ]
+        }
+      }
+    }
+  }
+}

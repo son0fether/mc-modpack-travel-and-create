@@ -1,0 +1,76 @@
+{
+  "parent": "tac_bingo:beginning/rewards/bingo",
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "text": "Blackout!"
+    },
+    "description": {
+      "text": "Reward: Waystone - Ring bell for an extra reward for completing all advancements in this card"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "all_completed": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "tac_bingo:beginning/row1/row1_col1_gadget_building": true,
+                  "tac_bingo:beginning/row1/row1_col2_upper": true,
+                  "tac_bingo:beginning/row1/row1_col3_torchbow": true,
+                  "tac_bingo:beginning/row1/row1_col4_use_kelp": true,
+                  "tac_bingo:beginning/row1/row1_col5_sea_necklace": true,
+                  "tac_bingo:beginning/row2/row2_col1_pet_cat": true,
+                  "tac_bingo:beginning/row2/row2_col2_computer": true,
+                  "tac_bingo:beginning/row2/row2_col3_mallet": true,
+                  "tac_bingo:beginning/row2/row2_col4_iron_backpack": true,
+                  "tac_bingo:beginning/row2/row2_col5_all_colors_mystical_flowers": true,
+                  "tac_bingo:beginning/row3/row3_col1_crafting_terminal": true,
+                  "tac_bingo:beginning/row3/row3_col2_hot_air_balloon": true,
+                  "tac_bingo:beginning/row3/row3_col3_free_space": true,
+                  "tac_bingo:beginning/row3/row3_col4_wayward_lantern": true,
+                  "tac_bingo:beginning/row3/row3_col5_cog": true,
+                  "tac_bingo:beginning/row4/row4_col1_lunchbox": true,
+                  "tac_bingo:beginning/row4/row4_col2_slime_arrow": true,
+                  "tac_bingo:beginning/row4/row4_col3_diamond_magnum_torch": true,
+                  "tac_bingo:beginning/row4/row4_col4_super_glue": true,
+                  "tac_bingo:beginning/row4/row4_col5_use_painting_on_painting": true,
+                  "tac_bingo:beginning/row5/row5_col1_horseback_hit_pillager": true,
+                  "tac_bingo:beginning/row5/row5_col2_horseback_hit_boss": true,
+                  "tac_bingo:beginning/row5/row5_col3_horseback_hit_target": true,
+                  "tac_bingo:beginning/row5/row5_col4_breed_horses": true,
+                  "tac_bingo:beginning/row5/row5_col5_disenchanter": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+	"function": "tac_bingo:beginning/rewards/blackout_give_rewards"
+  }
+}

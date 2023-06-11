@@ -1,0 +1,35 @@
+{
+  "parent": "tac_bingo:capture_mobs/row4/row4_col3_nautilus",
+  "display": {
+    "icon": {
+      "item": "portablemobs:master_capture_cell",
+	  "nbt": "{has_entity: 1b, entity_type: \"quark:forgotten\"}"
+    },
+    "title": {
+      "translate": "Capture a Forgotten"
+    },
+    "description": {
+      "translate": "Dangerous, found in caves underground"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "capture_mob": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "portablemobs:basic_capture_cell",
+            "portablemobs:master_capture_cell"
+          ]
+        },
+        "entity": {
+          "type": "quark:forgotten"
+        }
+      }
+    }
+  }
+}

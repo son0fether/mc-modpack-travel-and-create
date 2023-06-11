@@ -1,0 +1,30 @@
+{
+  "parent": "tac_bingo:beginning/row4/row4_col3_diamond_magnum_torch",
+  "display": {
+    "icon": {
+      "item": "create:super_glue"
+    },
+    "title": {
+      "translate": "Craft some Super Glue"
+    },
+    "description": {
+      "translate": "From Create"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "have_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["create:super_glue"]
+          }
+        ]
+      }
+    }
+  }
+}

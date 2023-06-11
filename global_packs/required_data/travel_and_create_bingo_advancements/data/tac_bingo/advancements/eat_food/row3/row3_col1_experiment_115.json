@@ -1,0 +1,30 @@
+{
+  "parent": "tac_bingo:eat_food/row3/row3_row_start",
+  "display": {
+    "icon": {
+      "item": "twilightforest:experiment_115"
+    },
+    "title": {
+      "translate": "Eat Experiment 115"
+    },
+    "description": {
+      "translate": "From Twilight Forest"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eat_food": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "twilightforest:experiment_115"
+          ]
+        }
+      }
+    }
+  }
+}

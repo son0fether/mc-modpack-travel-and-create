@@ -1,0 +1,102 @@
+{
+  "parent": "tac_bingo:beginning/row5/row5_row_start",
+  "display": {
+    "icon": {
+      "item": "minecraft:bow"
+    },
+    "title": {
+      "translate": "Mounted Combat"
+    },
+    "description": {
+      "translate": "Strike a Pillager while on horseback"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "horseback_hit_pillager_on_horse": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "horse_colors:horse_felinoid"
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:pillager"
+            }
+          }
+        ]
+      }
+    },
+    "horseback_hit_pillager_on_donkey": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "horse_colors:donkey"
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:pillager"
+            }
+          }
+        ]
+      }
+    },
+    "horseback_hit_pillager_on_mule": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "horse_colors:mule"
+              }
+            }
+          }
+        ],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:pillager"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+	  "horseback_hit_pillager_on_horse",
+	  "horseback_hit_pillager_on_donkey",
+	  "horseback_hit_pillager_on_mule"
+	]
+  ]
+}

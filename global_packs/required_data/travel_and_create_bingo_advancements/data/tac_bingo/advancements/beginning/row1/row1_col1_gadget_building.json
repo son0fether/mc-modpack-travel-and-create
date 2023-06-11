@@ -1,0 +1,31 @@
+{
+  "parent": "tac_bingo:beginning/row1/row1_row_start",
+  "display": {
+    "icon": {
+      "item": "buildinggadgets:gadget_building",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "Craft a Building Gadget"
+    },
+    "description": {
+      "translate": "From Building Gadgets"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "have_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["buildinggadgets:gadget_building"]
+          }
+        ]
+      }
+    }
+  }
+}

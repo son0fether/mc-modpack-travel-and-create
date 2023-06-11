@@ -1,0 +1,542 @@
+{
+  "parent": "tac_bingo:grand_challenges/row4/row4_col4_dungeons_arise_all_structures_custom",
+  "display": {
+    "icon": {
+      "item": "emeraldequipment:emerald_boots"
+    },
+    "title": {
+      "translate": "Repurposeful Exploration"
+    },
+    "description": {
+      "translate": "Earn all exploration advancements from Repurposed Structures"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "click_bell_ancient_cities": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+			]
+          }
+        },
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "repurposed_structures:ancient_cities": true
+                }
+              }
+            }
+          }
+		]
+      }
+    },
+    "click_bell_bastion_underground": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+			]
+          }
+        },
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "repurposed_structures:bastion_underground": true
+                }
+              }
+            }
+          }
+		]
+      }
+    },
+    "click_bell_city_nether": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+			]
+          }
+        },
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "repurposed_structures:city_nether": true
+                }
+              }
+            }
+          }
+		]
+      }
+    },
+    "click_bell_city_overworld": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+			]
+          }
+        },
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "repurposed_structures:city_overworld": true
+                }
+              }
+            }
+          }
+		]
+      }
+    },
+    "click_bell_fortress_jungle": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+			]
+          }
+        },
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "repurposed_structures:fortress_jungle": true
+                }
+              }
+            }
+          }
+		]
+      }
+    },
+    "click_bell_igloos": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+			]
+          }
+        },
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "repurposed_structures:igloos": true
+                }
+              }
+            }
+          }
+		]
+      }
+    },
+    "click_bell_mansions": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+			]
+          }
+        },
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "repurposed_structures:mansions": true
+                }
+              }
+            }
+          }
+		]
+      }
+    },
+    "click_bell_mineshafts": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+			]
+          }
+        },
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "repurposed_structures:mineshafts": true
+                }
+              }
+            }
+          }
+		]
+      }
+    },
+    "click_bell_monuments": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+			]
+          }
+        },
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "repurposed_structures:monuments": true
+                }
+              }
+            }
+          }
+		]
+      }
+    },
+    "click_bell_outposts": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+			]
+          }
+        },
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "repurposed_structures:outposts": true
+                }
+              }
+            }
+          }
+		]
+      }
+    },
+    "click_bell_pyramids": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+			]
+          }
+        },
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "repurposed_structures:pyramids": true
+                }
+              }
+            }
+          }
+		]
+      }
+    },
+    "click_bell_ruined_portal_end": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+			]
+          }
+        },
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "repurposed_structures:ruined_portal_end": true
+                }
+              }
+            }
+          }
+		]
+      }
+    },
+    "click_bell_ruins": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+			]
+          }
+        },
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "repurposed_structures:ruins": true
+                }
+              }
+            }
+          }
+		]
+      }
+    },
+    "click_bell_shipwrecks": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+			]
+          }
+        },
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "repurposed_structures:shipwrecks": true
+                }
+              }
+            }
+          }
+		]
+      }
+    },
+    "click_bell_strongholds": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+			]
+          }
+        },
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "repurposed_structures:strongholds": true
+                }
+              }
+            }
+          }
+		]
+      }
+    },
+    "click_bell_temples": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+			]
+          }
+        },
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "repurposed_structures:temples": true
+                }
+              }
+            }
+          }
+		]
+      }
+    },
+    "click_bell_villages": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+			]
+          }
+        },
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "repurposed_structures:villages": true
+                }
+              }
+            }
+          }
+		]
+      }
+    },
+    "click_bell_witch_huts": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+			]
+          }
+        },
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "repurposed_structures:witch_huts": true
+                }
+              }
+            }
+          }
+		]
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "tac_bingo:capture_mobs/row3/row3_row_start",
+  "display": {
+    "icon": {
+      "item": "portablemobs:master_capture_cell",
+	  "nbt": "{has_entity: 1b, entity_type: \"alexsmobs:tropical_slime\"}"
+    },
+    "title": {
+      "translate": "Capture a Tropical Slime"
+    },
+    "description": {
+      "translate": "Not initially hostile, found in Beaches"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "capture_mob": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "portablemobs:basic_capture_cell",
+            "portablemobs:master_capture_cell"
+          ]
+        },
+        "entity": {
+          "type": "earthtojavamobs:tropical_slime"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "byg:embur_crafting_table"
+    },
+    "title": {
+      "text": "Bingo: Capture Mobs"
+    },
+    "description": {
+      "text": "Ring a Bell to play bingo and capture mobs with Basic or Master Capture Cells, or buckets"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+  },
+  "criteria": {
+    "logged_in": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

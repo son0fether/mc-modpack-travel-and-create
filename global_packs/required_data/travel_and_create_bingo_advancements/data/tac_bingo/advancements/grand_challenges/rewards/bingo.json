@@ -1,0 +1,435 @@
+{
+  "parent": "tac_bingo:grand_challenges/rewards",
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_apple"
+    },
+    "title": {
+      "text": "Bingo!"
+    },
+    "description": {
+      "text": "Reward: Defense up: +2 armor, reducing damage from all attacks"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "row1_completed": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "tac_bingo:grand_challenges/row1/row1_col1_kill_all_mobs": true,
+                  "tac_bingo:grand_challenges/row1/row1_col2_farmersdelight_master_chef": true,
+                  "tac_bingo:grand_challenges/row1/row1_col3_complete_catalogue": true,
+                  "tac_bingo:grand_challenges/row1/row1_col4_betterdungeons_all_dungeons": true,
+                  "tac_bingo:grand_challenges/row1/row1_col5_devils_hole_pupfish_bucket": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"            ]
+          }
+        }
+      }
+    },
+    "row2_completed": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "tac_bingo:grand_challenges/row2/row2_col1_adventuring_time": true,
+                  "tac_bingo:grand_challenges/row2/row2_col2_mazebreaker": true,
+                  "tac_bingo:grand_challenges/row2/row2_col3_biomesoplenty_all_biomes": true,
+                  "tac_bingo:grand_challenges/row2/row2_col4_hyperspace_jump": true,
+                  "tac_bingo:grand_challenges/row2/row2_col5_kill_conjurer": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"            ]
+          }
+        }
+      }
+    },
+    "row3_completed": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "tac_bingo:grand_challenges/row3/row3_col1_bygonenether_explore_structures": true,
+                  "tac_bingo:grand_challenges/row3/row3_col2_raw_netherite_scrap": true,
+                  "tac_bingo:grand_challenges/row3/row3_col3_free_space": true,
+                  "tac_bingo:grand_challenges/row3/row3_col4_warped_mosco_kill": true,
+                  "tac_bingo:grand_challenges/row3/row3_col5_idas_all_structures_custom": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"            ]
+          }
+        }
+      }
+    },
+    "row4_completed": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "tac_bingo:grand_challenges/row4/row4_col1_gaia_guardian_hardmode": true,
+                  "tac_bingo:grand_challenges/row4/row4_col2_two_birds_one_arrow": true,
+                  "tac_bingo:grand_challenges/row4/row4_col3_farseer": true,
+                  "tac_bingo:grand_challenges/row4/row4_col4_dungeons_arise_all_structures_custom": true,
+                  "tac_bingo:grand_challenges/row4/row4_col5_repurposed_structures_all_structures_custom": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"            ]
+          }
+        }
+      }
+    },
+    "row5_completed": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "tac_bingo:grand_challenges/row5/row5_col1_hit_every_instrument_mob_with_its_own": true,
+                  "tac_bingo:grand_challenges/row5/row5_col2_oh_the_biomes_youll_go": true,
+                  "tac_bingo:grand_challenges/row5/row5_col3_create_long_travel": true,
+                  "tac_bingo:grand_challenges/row5/row5_col4_lightning_rod_with_villager_no_fire": true,
+                  "tac_bingo:grand_challenges/row5/row5_col5_void_worm_kill": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"            ]
+          }
+        }
+      }
+    },
+    "col1_completed": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "tac_bingo:grand_challenges/row1/row1_col1_kill_all_mobs": true,
+                  "tac_bingo:grand_challenges/row2/row2_col1_adventuring_time": true,
+                  "tac_bingo:grand_challenges/row3/row3_col1_bygonenether_explore_structures": true,
+                  "tac_bingo:grand_challenges/row4/row4_col1_gaia_guardian_hardmode": true,
+                  "tac_bingo:grand_challenges/row5/row5_col1_hit_every_instrument_mob_with_its_own": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"            ]
+          }
+        }
+      }
+    },
+    "col2_completed": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "tac_bingo:grand_challenges/row1/row1_col2_farmersdelight_master_chef": true,
+                  "tac_bingo:grand_challenges/row2/row2_col2_mazebreaker": true,
+                  "tac_bingo:grand_challenges/row3/row3_col2_raw_netherite_scrap": true,
+                  "tac_bingo:grand_challenges/row4/row4_col2_two_birds_one_arrow": true,
+                  "tac_bingo:grand_challenges/row5/row5_col2_oh_the_biomes_youll_go": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"            ]
+          }
+        }
+      }
+    },
+    "col3_completed": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "tac_bingo:grand_challenges/row1/row1_col3_complete_catalogue": true,
+                  "tac_bingo:grand_challenges/row2/row2_col3_biomesoplenty_all_biomes": true,
+                  "tac_bingo:grand_challenges/row3/row3_col3_free_space": true,
+                  "tac_bingo:grand_challenges/row4/row4_col3_farseer": true,
+                  "tac_bingo:grand_challenges/row5/row5_col3_create_long_travel": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"            ]
+          }
+        }
+      }
+    },
+    "col4_completed": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "tac_bingo:grand_challenges/row1/row1_col4_betterdungeons_all_dungeons": true,
+                  "tac_bingo:grand_challenges/row2/row2_col4_hyperspace_jump": true,
+                  "tac_bingo:grand_challenges/row3/row3_col4_warped_mosco_kill": true,
+                  "tac_bingo:grand_challenges/row4/row4_col4_dungeons_arise_all_structures_custom": true,
+                  "tac_bingo:grand_challenges/row5/row5_col4_lightning_rod_with_villager_no_fire": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"            ]
+          }
+        }
+      }
+    },
+    "col5_completed": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "tac_bingo:grand_challenges/row1/row1_col5_devils_hole_pupfish_bucket": true,
+                  "tac_bingo:grand_challenges/row2/row2_col5_kill_conjurer": true,
+                  "tac_bingo:grand_challenges/row3/row3_col5_idas_all_structures_custom": true,
+                  "tac_bingo:grand_challenges/row4/row4_col5_repurposed_structures_all_structures_custom": true,
+                  "tac_bingo:grand_challenges/row5/row5_col5_void_worm_kill": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"            ]
+          }
+        }
+      }
+    },
+    "diag1_completed": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "tac_bingo:grand_challenges/row1/row1_col1_kill_all_mobs": true,
+                  "tac_bingo:grand_challenges/row2/row2_col2_mazebreaker": true,
+                  "tac_bingo:grand_challenges/row3/row3_col3_free_space": true,
+                  "tac_bingo:grand_challenges/row4/row4_col4_dungeons_arise_all_structures_custom": true,
+                  "tac_bingo:grand_challenges/row5/row5_col5_void_worm_kill": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"            ]
+          }
+        }
+      }
+    },
+    "diag2_completed": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "tac_bingo:grand_challenges/row1/row1_col5_devils_hole_pupfish_bucket": true,
+                  "tac_bingo:grand_challenges/row2/row2_col4_hyperspace_jump": true,
+                  "tac_bingo:grand_challenges/row3/row3_col3_free_space": true,
+                  "tac_bingo:grand_challenges/row4/row4_col2_two_birds_one_arrow": true,
+                  "tac_bingo:grand_challenges/row5/row5_col1_hit_every_instrument_mob_with_its_own": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+	  "row1_completed",
+      "row2_completed",
+      "row3_completed",
+      "row4_completed",
+      "row5_completed",
+	  "col1_completed",
+	  "col2_completed",
+	  "col3_completed",
+	  "col4_completed",
+	  "col5_completed",
+	  "diag1_completed",
+	  "diag2_completed"
+    ]
+  ],
+  "rewards": {
+	"function": "tac_bingo:grand_challenges/rewards/bingo_give_rewards"
+  }
+}

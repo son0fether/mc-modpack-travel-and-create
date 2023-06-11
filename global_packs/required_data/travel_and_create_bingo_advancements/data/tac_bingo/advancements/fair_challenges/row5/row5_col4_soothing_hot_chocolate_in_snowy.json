@@ -1,0 +1,77 @@
+{
+  "parent": "tac_bingo:fair_challenges/row5/row5_col3_tame_foxhound",
+  "display": {
+    "icon": {
+      "item": "create_confectionery:soothing_hot_chocolate"
+    },
+    "title": {
+      "translate": "Drink a Soothing Hot Chocolate in the snow"
+    },
+    "description": {
+      "translate": "From Create Confectionary (standing on snow)"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "drink_standing_on_snow_block": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:snow_block"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "create_confectionery:soothing_hot_chocolate"
+          ]
+        }
+      }
+    },
+    "drink_standing_in_snow": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+			  "location": {
+                "block": {
+                  "blocks": [
+                    "minecraft:powder_snow",
+                    "minecraft:snow"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "create_confectionery:soothing_hot_chocolate"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+	  "drink_standing_on_snow_block",
+	  "drink_standing_in_snow"
+	]
+  ]
+}

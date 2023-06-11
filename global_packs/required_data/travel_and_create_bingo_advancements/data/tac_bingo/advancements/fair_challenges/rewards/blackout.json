@@ -1,0 +1,76 @@
+{
+  "parent": "tac_bingo:fair_challenges/rewards/bingo",
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "text": "Blackout!"
+    },
+    "description": {
+      "text": "Reward: Luck up: additional +1 luck (fortune/looting)"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "all_completed": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+			"entity": "this",
+            "predicate": {
+			  "type": "minecraft:player",
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "tac_bingo:fair_challenges/row1/row1_col1_hero_of_the_village": true,
+                  "tac_bingo:fair_challenges/row1/row1_col2_hit_instrument_mob_with_its_own": true,
+                  "tac_bingo:fair_challenges/row1/row1_col3_bison_spyglass": true,
+                  "tac_bingo:fair_challenges/row1/row1_col4_self_deploying": true,
+                  "tac_bingo:fair_challenges/row1/row1_col5_giant_pickaxe": true,
+                  "tac_bingo:fair_challenges/row2/row2_col1_capture_pinch_beetle": true,
+                  "tac_bingo:fair_challenges/row2/row2_col2_pineapple_juice_on_beach": true,
+                  "tac_bingo:fair_challenges/row2/row2_col3_stuffed_hoglin": true,
+                  "tac_bingo:fair_challenges/row2/row2_col4_glorious_eminence": true,
+                  "tac_bingo:fair_challenges/row2/row2_col5_rare_lootbag": true,
+                  "tac_bingo:fair_challenges/row3/row3_col1_bronze_bell": true,
+                  "tac_bingo:fair_challenges/row3/row3_col2_ender_hand": true,
+                  "tac_bingo:fair_challenges/row3/row3_col3_free_space": true,
+                  "tac_bingo:fair_challenges/row3/row3_col4_vibe_check": true,
+                  "tac_bingo:fair_challenges/row3/row3_col5_hit_raider_with_rotten_tomato": true,
+                  "tac_bingo:fair_challenges/row4/row4_col1_sunbird_blessing": true,
+                  "tac_bingo:fair_challenges/row4/row4_col2_all_professions_traded": true,
+                  "tac_bingo:fair_challenges/row4/row4_col3_fail_boss_capture": true,
+                  "tac_bingo:fair_challenges/row4/row4_col4_quest_ram": true,
+                  "tac_bingo:fair_challenges/row4/row4_col5_chorus_flower_wearing_carved_pumpkin": true,
+                  "tac_bingo:fair_challenges/row5/row5_col1_return_to_sender": true,
+                  "tac_bingo:fair_challenges/row5/row5_col2_avoid_vibration": true,
+                  "tac_bingo:fair_challenges/row5/row5_col3_tame_foxhound": true,
+                  "tac_bingo:fair_challenges/row5/row5_col4_soothing_hot_chocolate_in_snowy": true,
+                  "tac_bingo:fair_challenges/row5/row5_col5_tigers_blessing": true
+                }
+              }
+            }
+          }
+        ],
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+	"function": "tac_bingo:fair_challenges/rewards/blackout_give_rewards"
+  }
+}

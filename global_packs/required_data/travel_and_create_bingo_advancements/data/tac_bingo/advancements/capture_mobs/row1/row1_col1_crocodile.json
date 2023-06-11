@@ -1,0 +1,35 @@
+{
+  "parent": "tac_bingo:capture_mobs/row1/row1_row_start",
+  "display": {
+    "icon": {
+      "item": "portablemobs:master_capture_cell",
+	  "nbt": "{has_entity: 1b, entity_type: \"alexsmobs:crocodile\"}"
+    },
+    "title": {
+      "translate": "Capture a Crocodile"
+    },
+    "description": {
+      "translate": "Dangerous, found in Rivers"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "capture_mob": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "portablemobs:basic_capture_cell",
+            "portablemobs:master_capture_cell"
+          ]
+        },
+        "entity": {
+          "type": "alexsmobs:crocodile"
+        }
+      }
+    }
+  }
+}

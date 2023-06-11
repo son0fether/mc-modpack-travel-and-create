@@ -1,0 +1,30 @@
+{
+  "parent": "tac_bingo:eat_food/row5/row5_col3_raspberry_iced_coffee",
+  "display": {
+    "icon": {
+      "item": "culturaldelights:fish_taco"
+    },
+    "title": {
+      "translate": "Eat a Fish Taco"
+    },
+    "description": {
+      "translate": "From Cultural Delights"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eat_food": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "culturaldelights:fish_taco"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "tac_bingo:eat_food/row1/row1_row_start",
+  "display": {
+    "icon": {
+      "item": "farmersrespite:tea_curry"
+    },
+    "title": {
+      "translate": "Eat Tea Curry"
+    },
+    "description": {
+      "translate": "From Farmer's Respite"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eat_food": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "farmersrespite:tea_curry"
+          ]
+        }
+      }
+    }
+  }
+}

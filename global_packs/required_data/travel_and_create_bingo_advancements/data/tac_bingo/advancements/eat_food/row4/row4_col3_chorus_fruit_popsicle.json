@@ -1,0 +1,30 @@
+{
+  "parent": "tac_bingo:eat_food/row4/row4_col2_honey_bottle",
+  "display": {
+    "icon": {
+      "item": "ends_delight:chorus_fruit_popsicle"
+    },
+    "title": {
+      "translate": "Eat a Chorus Fruit Popsicle"
+    },
+    "description": {
+      "translate": "From End's Delight"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "eat_food": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "ends_delight:chorus_fruit_popsicle"
+          ]
+        }
+      }
+    }
+  }
+}

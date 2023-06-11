@@ -1,0 +1,49 @@
+{
+  "parent": "tac_bingo:grand_challenges/row3/row3_row_start",
+  "display": {
+    "icon": {
+      "item": "gildednetherite:gilded_netherite_boots"
+    },
+    "title": {
+      "translate": "Earn 'Hotter Tourist Destinations'"
+    },
+    "description": {
+      "translate": "Explore all of Bygone Nether's structures"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "click_on_bell_with_advancement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:bell",
+              "create:peculiar_bell",
+              "create:haunted_bell",
+              "alloyed:bronze_bell"
+			]
+          }
+        },
+		"player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "bygonenether:explore_structures": true
+                }
+              }
+            }
+          }
+		]
+      }
+    }
+  }
+}
