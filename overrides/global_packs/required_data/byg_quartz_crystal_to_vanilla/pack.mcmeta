@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 6,
+    "pack_format": 9,
     "description": "Adds a Create milling+crushing recipe to turn BYG Quartz Crystal into Nether Quartz so that it has a use.  https://github.com/Creators-of-Create/Create/wiki/Custom-Recipes"
   }
 }
