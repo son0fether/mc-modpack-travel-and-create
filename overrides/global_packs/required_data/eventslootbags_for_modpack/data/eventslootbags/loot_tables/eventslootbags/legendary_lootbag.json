@@ -44,22 +44,12 @@
         {
           "type": "minecraft:item",
 		  "weight": 10,
-          "name": "minecraft:lodestone"
-        },
-        {
-          "type": "minecraft:item",
-		  "weight": 10,
           "name": "minecraft:dragon_head"
         },
         {
           "type": "minecraft:item",
 		  "weight": 10,
           "name": "minecraft:respawn_anchor"
-        },
-        {
-          "type": "minecraft:item",
-		  "weight": 10,
-          "name": "minecraft:sculk_catalyst"
         },
         {
           "type": "minecraft:item",
