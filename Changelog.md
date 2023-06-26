@@ -1,7 +1,28 @@
 # Changelog
 
+## 1.1.2
+Added:
+Added Chicken Chunks 1.8+ and its dependency
+Added Chunk Sending
+Added Server Performance - Smooth Chunk Save
+
+Updated:
+Changed lootbags loot tables to remove lodestone and skulk catalyst
+Updated a couple dozen mods
+
+Removed:
+Removed unnecessary download.txt files
+
+Fixed:
+Merged two datapacks for Event's Lootbags so that Curse moderation doesn't reject one of them for being empty
+
+
 ## 1.1.1
+Added:
 Added per-tick function to replace structure-spawned horses with Realistic Horse Genetics horses
+
+Removed:
+Remove unnecessary extra zip file
 
 
 ## 1.1.0
