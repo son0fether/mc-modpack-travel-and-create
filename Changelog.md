@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.3
+Updated:
+Minor mod updates
+Shipping Event's Lootbags loot tables as flat files because Curseforge doesn't like them in a zip file for some reason
+
+
 ## 1.1.2
 Added:
 Added Chicken Chunks 1.8+ and its dependency
