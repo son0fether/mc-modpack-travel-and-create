@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Travel and Create",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "author": "",
   "files": [
     {
@@ -101,7 +101,7 @@
     },
     {
       "projectID": 380617,
-      "fileID": 4608010,
+      "fileID": 4612504,
       "required": true
     },
     {
@@ -706,7 +706,7 @@
     },
     {
       "projectID": 548115,
-      "fileID": 4572069,
+      "fileID": 4609489,
       "required": true
     },
     {
