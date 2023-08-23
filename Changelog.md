@@ -1,5 +1,9 @@
 # Changelog
 
+# 1.1.5
+
+Downgrade Colored Brick Mod to 4.3 due to https://www.curseforge.com/minecraft/mc-mods/colored-bricks-mod/files/3915765
+
 # 1.1.4
 
 Added updated CC:C Bridge that works with Create 0.5.1
