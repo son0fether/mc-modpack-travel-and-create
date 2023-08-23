@@ -11,7 +11,7 @@
 5 : '{Count:1b,ForgeCaps:{Parent:{Items:[{Count:8b,Slot:0,id:"byg:baobab_fruit"},{Count:8b,Slot:1,id:"farmersdelight:pumpkin_slice"},{Count:8b,Slot:2,id:"culturaldelights:tortilla"},{Count:4b,Slot:3,id:"alexsmobs:cooked_moose_ribs"},{Count:4b,Slot:4,id:"twilightforest:cooked_venison"}],Size:5}},id:"solsweetpotato:lunchbag",tag:{display:{Lore:['{"text":"Hold right-click to eat least recent food.","color":"dark_aqua"}','{"text":"Shift-right-click to open inventory.","color":"dark_aqua"}','{"text":"WARNING: Loses inventory when crafted.","color":"dark_red"}']}}}',
 6 : '{Count:1b,id:"minecraft:spyglass"}',
 7 : '{Count:1b,id:"comforts:sleeping_bag_red",tag:{display:{Lore:['{"text":"Makes it day without setting your spawn.","color":"dark_aqua"}']}}}',
-8 : '{Count:1b,id:"sophisticatedbackpacks:backpack",tag:{contentsUuid:[I;286558381,1202605253,-2126635463,1376435800],inventorySlots:27,upgradeSlots:1}}',
+8 : '{Count:1b,id:"sophisticatedbackpacks:backpack",tag:{inventorySlots:27,upgradeSlots:1}}',
 9 : '{Count:1b,id:"minecraft:white_bed",tag:{display:{Lore:['{"text":"A bed. Use this to set your spawn after you /rtp.","color":"dark_aqua"}']}}}',
 10 : '{Count:1b,id:"ring_of_return:ring_of_return"}',
 11 : '{Count:1b,id:"waystones:waystone",tag:{display:{Lore:['{"text":"Place this carefully at your first base.","color":"dark_aqua"}']}}}',
