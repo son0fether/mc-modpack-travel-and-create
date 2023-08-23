@@ -2,7 +2,7 @@
   "parent": "tac_bingo:grand_challenges/row3/row3_col4_warped_mosco_kill",
   "display": {
     "icon": {
-      "item": "create:diving_boots"
+      "item": "create:copper_diving_boots"
     },
     "title": {
       "translate": "Integrated Exploration"
