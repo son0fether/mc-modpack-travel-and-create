@@ -1,5 +1,10 @@
 # Changelog
 
+# 1.1.4
+
+Added updated CC:C Bridge that works with Create 0.5.1
+Lots of minor mod updates
+
 ## 1.1.3
 Updated:
 Minor mod updates
