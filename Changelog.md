@@ -1,5 +1,11 @@
 # Changelog
 
+# 1.1.6
+
+Fix: Modify starterkit to remove UUID from starter item backpack causing multiplayer issues
+Fix: Updated lootbags rare loot table to remove missing item that had broken it
+Fix: Updated grand challenges to switch display icon for missing item that had broken it
+
 # 1.1.5
 
 Downgrade Colored Brick Mod to 4.3 due to https://www.curseforge.com/minecraft/mc-mods/colored-bricks-mod/files/3915765
