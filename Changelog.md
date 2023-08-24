@@ -1,5 +1,9 @@
 # Changelog
 
+# 1.1.8
+
+Minor mod updates, required by Supplementaries version deprecation
+
 # 1.1.7
 
 Remove Soul Bead and Sculk Sensor from rare lootbag for not being useful enough
