@@ -1,5 +1,9 @@
 # Changelog
 
+# 1.1.7
+
+Remove Soul Bead and Sculk Sensor from rare lootbag for not being useful enough
+
 # 1.1.6
 
 Fix: Modify starterkit to remove UUID from starter item backpack causing multiplayer issues

@@ -570,11 +570,6 @@
           "weight": 10,
           "name": "minecraft:glow_item_frame"
         },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "name": "minecraft:sculk_sensor"
-        },
 
         {
           "type": "minecraft:item",
@@ -623,11 +618,6 @@
           "name": "uppers:upper"
         },
 
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "name": "quark:soul_bead"
-        },
         {
           "type": "minecraft:item",
           "weight": 10,
