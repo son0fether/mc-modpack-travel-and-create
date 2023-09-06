@@ -3,13 +3,13 @@
   "display": {
     "icon": {
       "item": "portablemobs:master_capture_cell",
-	  "nbt": "{has_entity: 1b, entity_type: \"alexsmobs:crocodile\"}"
+	  "nbt": "{has_entity: 1b, entity_type: \"alexsmobs:dropbear\"}"
     },
     "title": {
-      "translate": "Capture a Crocodile"
+      "translate": "Capture a Dropbear"
     },
     "description": {
-      "translate": "Dangerous, found in Rivers"
+      "translate": "Dangerous, found on the ceiling in the Nether"
     },
     "frame": "challenge",
     "show_toast": true,
@@ -27,7 +27,7 @@
           ]
         },
         "entity": {
-          "type": "alexsmobs:crocodile"
+          "type": "alexsmobs:dropbear"
         }
       }
     }

@@ -2,14 +2,13 @@
   "parent": "tac_bingo:capture_mobs/row4/row4_col1_penguin",
   "display": {
     "icon": {
-      "item": "portablemobs:master_capture_cell",
-	  "nbt": "{has_entity: 1b, entity_type: \"alexsmobs:mantis_shrimp\"}"
+      "item": "alexsmobs:lobster_bucket"
     },
     "title": {
-      "translate": "Capture a Mantis Shrimp"
+      "translate": "Capture a Lobster"
     },
     "description": {
-      "translate": "Not initially hostile, found in Warm Oceans or Mangrove Swamps"
+      "translate": "Not initially hostile, found in Beaches"
     },
     "frame": "challenge",
     "show_toast": true,
@@ -23,11 +22,12 @@
         "item": {
           "items": [
             "portablemobs:basic_capture_cell",
-            "portablemobs:master_capture_cell"
+            "portablemobs:master_capture_cell",
+			"minecraft:water_bucket"
           ]
         },
         "entity": {
-          "type": "alexsmobs:mantis_shrimp"
+          "type": "alexsmobs:lobster"
         }
       }
     }

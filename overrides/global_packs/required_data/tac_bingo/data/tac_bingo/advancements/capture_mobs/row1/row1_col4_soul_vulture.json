@@ -3,13 +3,13 @@
   "display": {
     "icon": {
       "item": "portablemobs:master_capture_cell",
-	  "nbt": "{has_entity: 1b, entity_type: \"alexsmobs:komodo_dragon\"}"
+	  "nbt": "{has_entity: 1b, entity_type: \"alexsmobs:soul_vulture\"}"
     },
     "title": {
-      "translate": "Capture a Komodo Dragon"
+      "translate": "Capture a Soul Vulture"
     },
     "description": {
-      "translate": "Dangerous, found in Sparse Jungles"
+      "translate": "Dangerous, found in Soul Sand Valleys"
     },
     "frame": "task",
     "show_toast": true,
@@ -27,7 +27,7 @@
           ]
         },
         "entity": {
-          "type": "alexsmobs:komodo_dragon"
+          "type": "alexsmobs:soul_vulture"
         }
       }
     }

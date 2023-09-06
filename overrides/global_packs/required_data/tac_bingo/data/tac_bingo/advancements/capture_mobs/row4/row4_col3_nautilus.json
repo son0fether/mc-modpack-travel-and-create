@@ -1,5 +1,5 @@
 {
-  "parent": "tac_bingo:capture_mobs/row4/row4_col2_mantis_shrimp",
+  "parent": "tac_bingo:capture_mobs/row4/row4_col2_lobster",
   "display": {
     "icon": {
       "item": "upgrade_aquatic:nautilus_bucket"

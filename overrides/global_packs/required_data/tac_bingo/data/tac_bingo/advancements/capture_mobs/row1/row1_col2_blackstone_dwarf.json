@@ -1,5 +1,5 @@
 {
-  "parent": "tac_bingo:capture_mobs/row1/row1_col1_crocodile",
+  "parent": "tac_bingo:capture_mobs/row1/row1_col1_dropbear",
   "display": {
     "icon": {
       "item": "portablemobs:master_capture_cell",

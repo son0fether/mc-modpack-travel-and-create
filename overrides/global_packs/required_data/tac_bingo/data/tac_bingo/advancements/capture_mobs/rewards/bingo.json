@@ -28,10 +28,10 @@
               "type_specific": {
                 "type": "player",
                 "advancements": {
-                  "tac_bingo:capture_mobs/row1/row1_col1_crocodile": true,
+                  "tac_bingo:capture_mobs/row1/row1_col1_dropbear": true,
                   "tac_bingo:capture_mobs/row1/row1_col2_blackstone_dwarf": true,
                   "tac_bingo:capture_mobs/row1/row1_col3_rocky_roller": true,
-                  "tac_bingo:capture_mobs/row1/row1_col4_komodo_dragon": true,
+                  "tac_bingo:capture_mobs/row1/row1_col4_soul_vulture": true,
                   "tac_bingo:capture_mobs/row1/row1_col5_allay": true
                 }
               }
@@ -128,7 +128,7 @@
                 "type": "player",
                 "advancements": {
                   "tac_bingo:capture_mobs/row4/row4_col1_penguin": true,
-                  "tac_bingo:capture_mobs/row4/row4_col2_mantis_shrimp": true,
+                  "tac_bingo:capture_mobs/row4/row4_col2_lobster": true,
                   "tac_bingo:capture_mobs/row4/row4_col3_nautilus": true,
                   "tac_bingo:capture_mobs/row4/row4_col4_forgotten": true,
                   "tac_bingo:capture_mobs/row4/row4_col5_laviathan": true
@@ -193,7 +193,7 @@
               "type_specific": {
                 "type": "player",
                 "advancements": {
-                  "tac_bingo:capture_mobs/row1/row1_col1_crocodile": true,
+                  "tac_bingo:capture_mobs/row1/row1_col1_dropbear": true,
                   "tac_bingo:capture_mobs/row2/row2_col1_platypus": true,
                   "tac_bingo:capture_mobs/row3/row3_col1_tropical_slime": true,
                   "tac_bingo:capture_mobs/row4/row4_col1_penguin": true,
@@ -229,7 +229,7 @@
                   "tac_bingo:capture_mobs/row1/row1_col2_blackstone_dwarf": true,
                   "tac_bingo:capture_mobs/row2/row2_col2_troll": true,
                   "tac_bingo:capture_mobs/row3/row3_col2_snow_leopard": true,
-                  "tac_bingo:capture_mobs/row4/row4_col2_mantis_shrimp": true,
+                  "tac_bingo:capture_mobs/row4/row4_col2_lobster": true,
                   "tac_bingo:capture_mobs/row5/row5_col2_moose": true
                 }
               }
@@ -292,7 +292,7 @@
               "type_specific": {
                 "type": "player",
                 "advancements": {
-                  "tac_bingo:capture_mobs/row1/row1_col4_komodo_dragon": true,
+                  "tac_bingo:capture_mobs/row1/row1_col4_soul_vulture": true,
                   "tac_bingo:capture_mobs/row2/row2_col4_endergrade": true,
                   "tac_bingo:capture_mobs/row3/row3_col4_giant_squid": true,
                   "tac_bingo:capture_mobs/row4/row4_col4_forgotten": true,
@@ -358,7 +358,7 @@
               "type_specific": {
                 "type": "player",
                 "advancements": {
-                  "tac_bingo:capture_mobs/row1/row1_col1_crocodile": true,
+                  "tac_bingo:capture_mobs/row1/row1_col1_dropbear": true,
                   "tac_bingo:capture_mobs/row2/row2_col2_troll": true,
                   "tac_bingo:capture_mobs/row3/row3_col3_free_space": true,
                   "tac_bingo:capture_mobs/row4/row4_col4_forgotten": true,
@@ -394,7 +394,7 @@
                   "tac_bingo:capture_mobs/row1/row1_col5_allay": true,
                   "tac_bingo:capture_mobs/row2/row2_col4_endergrade": true,
                   "tac_bingo:capture_mobs/row3/row3_col3_free_space": true,
-                  "tac_bingo:capture_mobs/row4/row4_col2_mantis_shrimp": true,
+                  "tac_bingo:capture_mobs/row4/row4_col2_lobster": true,
                   "tac_bingo:capture_mobs/row5/row5_col1_axolotl": true
                 }
               }

@@ -17,7 +17,7 @@
     "hidden": false
   },
   "criteria": {
-    "capture_mob": {
+    "capture_mob_ecologics": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
@@ -30,6 +30,26 @@
           "type": "ecologics:penguin"
         }
       }
+    },
+    "capture_mob_twilightforest": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "portablemobs:basic_capture_cell",
+            "portablemobs:master_capture_cell"
+          ]
+        },
+        "entity": {
+          "type": "twilightforest:penguin"
+        }
+      }
     }
-  }
+  },
+  "requirements": [
+    [
+      "capture_mob_ecologics",
+      "capture_mob_twilightforest"
+    ]
+  ]
 }
