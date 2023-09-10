@@ -17,7 +17,7 @@
     "hidden": false
   },
   "criteria": {
-    "have_item": {
+    "have_item_mallet": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -26,6 +26,22 @@
           }
         ]
       }
+    },
+    "have_item_golden_mallet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["nomadictents:golden_mallet"]
+          }
+        ]
+      }
     }
-  }
+  },
+  "requirements": [
+    [
+      "have_item_mallet",
+      "have_item_golden_mallet"
+    ]
+  ]
 }
