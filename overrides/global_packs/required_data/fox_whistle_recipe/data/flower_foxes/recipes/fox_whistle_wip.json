@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "flower_foxes:bowls"},
+    {"item": "minecraft:gold_ingot"}
+  ],
+  "result": {
+    "item": "flower_foxes:banana",
+    "count": 1
+  }
+}
