@@ -1,5 +1,24 @@
 # Changelog
 
+# 1.1.9
+
+Minor mod updates
+
+Added crafting recipe for fox whistle
+- WARNING: foxes become unnamed when the whistle is used
+
+Improvement: Gave cranberry from Ferdinand's Flowers the forge fruits, berries, and fruits/berries tags
+(but not sweet berries)
+
+
+Bugfix: Switched 3 capture bingo advancements to other mobs because the originals did not trigger capture in survival
+- Komodo dragon -> Soul Vulture
+- Crocodile -> Dropbear
+- Mantis Shrimp -> Lobster
+
+
+Bugfix: Updated Nomadic Tents mallet advancement to accept both hammers
+
 # 1.1.8
 
 Minor mod updates, required by Supplementaries version deprecation
