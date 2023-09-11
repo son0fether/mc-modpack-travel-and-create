@@ -10,14 +10,30 @@ Added crafting recipe for fox whistle
 Improvement: Gave cranberry from Ferdinand's Flowers the forge fruits, berries, and fruits/berries tags
 (but not sweet berries)
 
-
 Bugfix: Switched 3 capture bingo advancements to other mobs because the originals did not trigger capture in survival
 - Komodo dragon -> Soul Vulture
 - Crocodile -> Dropbear
 - Mantis Shrimp -> Lobster
 
-
 Bugfix: Updated Nomadic Tents mallet advancement to accept both hammers
+
+Modified loot tables:
+
+Legendary:
+- removed Respawn Anchor (not useful enough to be loot)
+- replaced Everlasting Upgrade from Sophisticated Backpacks with Inception Upgrade
+
+Epic:
+- removed Human Companions spawn eggs (more common than expected)
+- removed Forgotten Helmet (more common than expected)
+- removed Villager spawn egg x2 (more common than expected)
+- removed Heart of the Sea (more common than expected, Sea Crystal is already in Rare)
+- removed Totem of Undying (already in Rare)
+- moved Bell to Rare lootbag
+
+Rare:
+- removed Glowing Item Frame (more common than expected)
+
 
 # 1.1.8
 

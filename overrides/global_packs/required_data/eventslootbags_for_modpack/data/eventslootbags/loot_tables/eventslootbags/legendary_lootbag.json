@@ -49,11 +49,6 @@
         {
           "type": "minecraft:item",
 		  "weight": 10,
-          "name": "minecraft:respawn_anchor"
-        },
-        {
-          "type": "minecraft:item",
-		  "weight": 10,
           "name": "minecraft:enchanted_book",
           "functions": [
             {
@@ -98,7 +93,7 @@
         {
           "type": "minecraft:item",
 		  "weight": 10,
-          "name": "sophisticatedbackpacks:everlasting_upgrade"
+          "name": "sophisticatedbackpacks:inception_upgrade"
         },
 
         {

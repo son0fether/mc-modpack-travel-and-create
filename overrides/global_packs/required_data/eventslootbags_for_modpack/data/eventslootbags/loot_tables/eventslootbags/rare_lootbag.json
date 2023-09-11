@@ -567,8 +567,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
-          "name": "minecraft:glow_item_frame"
+		  "weight": 30,
+          "name": "minecraft:bell"
         },
 
         {
