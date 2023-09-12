@@ -1,5 +1,14 @@
 # Changelog
 
+1.1.10
+
+Downgraded Colored Brick Mod to 4.3 again https://www.curseforge.com/minecraft/mc-mods/colored-bricks-mod/files/3915765
+
+Improvement: Removed nav-wand-item from WorldEdit configs (was minecraft\:compass)
+This means that right-clicking with a compass doesn't teleport for ops/singleplayer any more.
+WorldEdit is great, but this was terrible behavior by default.
+
+
 # 1.1.9
 
 Minor mod updates
