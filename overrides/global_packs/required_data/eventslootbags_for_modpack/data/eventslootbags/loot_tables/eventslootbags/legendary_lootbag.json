@@ -5,12 +5,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-		  "weight": 10,
+          "weight": 10,
           "name": "minecraft:elytra"
         },
         {
           "type": "minecraft:item",
-		  "weight": 10,
+          "weight": 10,
           "name": "minecraft:ancient_debris",
           "functions": [
             {
@@ -20,11 +20,11 @@
                 "max": 4
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 10,
+          "weight": 10,
           "name": "minecraft:netherite_scrap",
           "functions": [
             {
@@ -34,22 +34,22 @@
                 "max": 4
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 10,
+          "weight": 10,
           "name": "minecraft:nether_star"
         },
         {
           "type": "minecraft:item",
-		  "weight": 10,
+          "weight": 10,
           "name": "minecraft:dragon_head"
         },
 
         {
           "type": "minecraft:item",
-		  "weight": 10,
+          "weight": 10,
           "name": "ends_delight:raw_dragon_meat",
           "functions": [
             {
@@ -59,24 +59,24 @@
                 "max": 4
               }
             }
-		  ]
+          ]
         },
 
         {
           "type": "minecraft:item",
-		  "weight": 10,
+          "weight": 10,
           "name": "alexsmobs:ambergris"
         },
 
         {
           "type": "minecraft:item",
-		  "weight": 10,
+          "weight": 10,
           "name": "botania:pinkinator"
         },
 
         {
           "type": "minecraft:item",
-		  "weight": 10,
+          "weight": 10,
           "name": "sophisticatedbackpacks:inception_upgrade"
         },
 
@@ -89,138 +89,138 @@
               "function": "minecraft:set_nbt",
               "tag": "{display:{Lore:['[{\"text\":\"WARNING: Very large tree, has roots, will destroy blocks.\", \"color\":\"red\"}]']}}"
             }
-		  ]
+          ]
         },
 
         {
           "type": "minecraft:item",
-		  "weight": 10,
+          "weight": 10,
           "name": "gildednetherite:golden_core"
         },
 
         {
           "type": "minecraft:item",
-		  "weight": 10,
+          "weight": 10,
           "name": "simplyswords:runic_tablet"
         },
         {
           "type": "minecraft:item",
-		  "weight": 1,
+          "weight": 1,
           "name": "simplyswords:brimstone_claymore"
         },
         {
           "type": "minecraft:item",
-		  "weight": 1,
+          "weight": 1,
           "name": "simplyswords:watcher_claymore"
         },
         {
           "type": "minecraft:item",
-		  "weight": 1,
+          "weight": 1,
           "name": "simplyswords:storms_edge"
         },
         {
           "type": "minecraft:item",
-		  "weight": 1,
+          "weight": 1,
           "name": "simplyswords:stormbringer"
         },
         {
           "type": "minecraft:item",
-		  "weight": 1,
+          "weight": 1,
           "name": "simplyswords:sword_on_a_stick"
         },
         {
           "type": "minecraft:item",
-		  "weight": 1,
+          "weight": 1,
           "name": "simplyswords:bramblethorn"
         },
         {
           "type": "minecraft:item",
-		  "weight": 1,
+          "weight": 1,
           "name": "simplyswords:watching_warglaive"
         },
         {
           "type": "minecraft:item",
-		  "weight": 1,
+          "weight": 1,
           "name": "simplyswords:toxic_longsword"
         },
         {
           "type": "minecraft:item",
-		  "weight": 1,
+          "weight": 1,
           "name": "simplyswords:emberblade"
         },
         {
           "type": "minecraft:item",
-		  "weight": 1,
+          "weight": 1,
           "name": "simplyswords:hearthflame"
         },
         {
           "type": "minecraft:item",
-		  "weight": 1,
+          "weight": 1,
           "name": "simplyswords:soulkeeper"
         },
         {
           "type": "minecraft:item",
-		  "weight": 1,
+          "weight": 1,
           "name": "simplyswords:twisted_blade"
         },
         {
           "type": "minecraft:item",
-		  "weight": 1,
+          "weight": 1,
           "name": "simplyswords:soulstealer"
         },
         {
           "type": "minecraft:item",
-		  "weight": 1,
+          "weight": 1,
           "name": "simplyswords:soulrender"
         },
         {
           "type": "minecraft:item",
-		  "weight": 1,
+          "weight": 1,
           "name": "simplyswords:soulpyre"
         },
         {
           "type": "minecraft:item",
-		  "weight": 1,
+          "weight": 1,
           "name": "simplyswords:frostfall"
         },
         {
           "type": "minecraft:item",
-		  "weight": 1,
+          "weight": 1,
           "name": "simplyswords:molten_edge"
         },
         {
           "type": "minecraft:item",
-		  "weight": 1,
+          "weight": 1,
           "name": "simplyswords:livyatan"
         },
         {
           "type": "minecraft:item",
-		  "weight": 1,
+          "weight": 1,
           "name": "simplyswords:icewhisper"
         },
         {
           "type": "minecraft:item",
-		  "weight": 1,
+          "weight": 1,
           "name": "simplyswords:arcanethyst"
         },
         {
           "type": "minecraft:item",
-		  "weight": 1,
+          "weight": 1,
           "name": "simplyswords:thunderbrand"
         },
         {
           "type": "minecraft:item",
-		  "weight": 1,
+          "weight": 1,
           "name": "simplyswords:mjolnir"
         },
         {
           "type": "minecraft:item",
-		  "weight": 1,
+          "weight": 1,
           "name": "simplyswords:slumbering_lichblade"
         },
         {
           "type": "minecraft:item",
-		  "weight": 1,
+          "weight": 1,
           "name": "simplyswords:shadowsting"
         },
 
@@ -233,7 +233,7 @@
               "function": "minecraft:set_nbt",
               "tag": "{TrophyType: \"entity\", TrophyEntity: {entityType: \"minecraft:ender_dragon\"}, Name:\"Ender dragon trophy\"}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -244,7 +244,7 @@
               "function": "minecraft:set_nbt",
               "tag": "{TrophyType: \"entity\", TrophyEntity: {entityType: \"minecraft:wither\"}, Name:\"Wither trophy\"}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -255,7 +255,7 @@
               "function": "minecraft:set_nbt",
               "tag": "{TrophyType: \"entity\", TrophyEntity: {entityType: \"minecraft:elder_guardian\"}, Name:\"Elder Guardian trophy\"}"
             }
-		  ]
+          ]
         },
 
         {
@@ -267,7 +267,7 @@
               "function": "minecraft:set_nbt",
               "tag": "{TrophyType: \"entity\", TrophyEntity: {entityType: \"unusualend:endstone_golem\"}, Name:\"Endstone golem trophy\"}"
             }
-		  ]
+          ]
         },
 
         {
@@ -279,7 +279,7 @@
               "function": "minecraft:set_nbt",
               "tag": "{TrophyType: \"entity\", TrophyEntity: {entityType: \"alexsmobs:farseer\"}, Name:\"Farseer trophy\"}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -290,7 +290,7 @@
               "function": "minecraft:set_nbt",
               "tag": "{TrophyType: \"entity\", TrophyEntity: {entityType: \"alexsmobs:void_worm\"}, Name:\"Void worm head trophy\"}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -301,7 +301,7 @@
               "function": "minecraft:set_nbt",
               "tag": "{TrophyType: \"entity\", TrophyEntity: {entityType: \"alexsmobs:warped_mosco\"}, Name:\"Warped mosco trophy\"}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -312,7 +312,7 @@
               "function": "minecraft:set_nbt",
               "tag": "{TrophyType: \"entity\", TrophyEntity: {entityType: \"alexsmobs:sunbird\"}, Name:\"Sunbird trophy\"}"
             }
-		  ]
+          ]
         },
 
         {
@@ -324,7 +324,7 @@
               "function": "minecraft:set_nbt",
               "tag": "{TrophyType: \"entity\", TrophyEntity: {entityType: \"twilightforest:naga\"}, Name:\"Naga head trophy\"}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -335,7 +335,7 @@
               "function": "minecraft:set_nbt",
               "tag": "{TrophyType: \"entity\", TrophyEntity: {entityType: \"twilightforest:lich\"}, Name:\"Lich trophy\"}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -346,7 +346,7 @@
               "function": "minecraft:set_nbt",
               "tag": "{TrophyType: \"entity\", TrophyEntity: {entityType: \"twilightforest:minoshroom\"}, Name:\"Minoshroom trophy\"}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -357,7 +357,7 @@
               "function": "minecraft:set_nbt",
               "tag": "{TrophyType: \"entity\", TrophyEntity: {entityType: \"twilightforest:hydra\"}, Name:\"Hydra trophy\"}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -368,7 +368,7 @@
               "function": "minecraft:set_nbt",
               "tag": "{TrophyType: \"entity\", TrophyEntity: {entityType: \"twilightforest:knight_phantom\"}, Name:\"Knight phantom trophy\"}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -379,7 +379,7 @@
               "function": "minecraft:set_nbt",
               "tag": "{TrophyType: \"entity\", TrophyEntity: {entityType: \"twilightforest:ur_ghast\"}, Name:\"Ur-Ghast trophy\"}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -390,7 +390,7 @@
               "function": "minecraft:set_nbt",
               "tag": "{TrophyType: \"entity\", TrophyEntity: {entityType: \"twilightforest:alpha_yeti\"}, Name:\"Alpha yeti trophy\"}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -401,10 +401,10 @@
               "function": "minecraft:set_nbt",
               "tag": "{TrophyType: \"entity\", TrophyEntity: {entityType: \"twilightforest:snow_queen\"}, Name:\"Snow queen trophy\"}"
             }
-		  ]
+          ]
         }
-		
+        
       ]
-    }	
+    }    
   ]
 }

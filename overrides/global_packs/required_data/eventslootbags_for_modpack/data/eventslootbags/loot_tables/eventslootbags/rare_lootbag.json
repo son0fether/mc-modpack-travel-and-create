@@ -15,7 +15,7 @@
         },
         {
           "type": "minecraft:item",
-		  "weight": 20,
+          "weight": 20,
           "name": "minecraft:wither_rose",
           "functions": [
             {
@@ -25,10 +25,10 @@
                 "max": 12
               }
             }
-		  ]
+          ]
         },
 
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "nethersdelight:diamond_machete",
@@ -38,7 +38,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:diamond_longsword",
@@ -48,7 +48,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:diamond_twinblade",
@@ -58,7 +58,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:diamond_rapier",
@@ -68,7 +68,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:diamond_katana",
@@ -78,7 +78,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:diamond_sai",
@@ -88,7 +88,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:diamond_spear",
@@ -98,7 +98,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:diamond_glaive",
@@ -108,7 +108,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:diamond_warglaive",
@@ -118,7 +118,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:diamond_cutlass",
@@ -128,7 +128,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:diamond_claymore",
@@ -138,7 +138,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:diamond_greathammer",
@@ -148,7 +148,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:diamond_greataxe",
@@ -158,7 +158,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:diamond_halberd",
@@ -168,7 +168,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:diamond_scythe",
@@ -178,7 +178,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:diamond_chakram",
@@ -193,10 +193,10 @@
             {
               "function": "minecraft:enchant_randomly"
             }
-		  ]
+          ]
         },
-		
-		{
+        
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:goat_horn",
@@ -207,7 +207,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:goat_horn",
@@ -218,7 +218,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:goat_horn",
@@ -229,7 +229,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:goat_horn",
@@ -240,7 +240,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:goat_horn",
@@ -251,7 +251,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:goat_horn",
@@ -262,7 +262,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:goat_horn",
@@ -273,7 +273,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "minecraft:goat_horn",
@@ -333,7 +333,7 @@
 
         {
           "type": "minecraft:item",
-		  "weight": 10,
+          "weight": 10,
           "name": "twilightforest:moon_dial"
         },
         {
@@ -379,7 +379,7 @@
                 "max": 8
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -393,7 +393,7 @@
                 "max": 8
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -407,7 +407,7 @@
                 "max": 8
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -421,10 +421,10 @@
                 "max": 2
               }
             }
-		  ]
+          ]
         },
 
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "emeraldequipment:emerald_helmet",
@@ -434,7 +434,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "emeraldequipment:emerald_chestplate",
@@ -444,7 +444,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "emeraldequipment:emerald_leggings",
@@ -454,7 +454,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "emeraldequipment:emerald_boots",
@@ -477,7 +477,7 @@
                 "max": 4
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -491,7 +491,7 @@
                 "max": 8
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -505,7 +505,7 @@
                 "max": 4
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -519,7 +519,7 @@
                 "max": 4
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -533,7 +533,7 @@
                 "max": 16
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -547,7 +547,7 @@
                 "max": 8
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -561,7 +561,7 @@
                 "max": 16
               }
             }
-		  ]
+          ]
         },
 
         {
@@ -591,11 +591,11 @@
                 "max": 2
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "minecraft:bell"
         },
 
@@ -604,7 +604,7 @@
           "weight": 10,
           "name": "portablemobs:master_capture_cell"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "xpbook:xp_tome",
@@ -637,7 +637,7 @@
                 "max": 32
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -661,7 +661,7 @@
                 "max": 4
               }
             }
-		  ]
+          ]
         },
 
         {
@@ -676,7 +676,7 @@
                 "max": 4
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -701,7 +701,7 @@
                 "max": 16
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -720,7 +720,7 @@
                 "max": 8
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -745,7 +745,7 @@
                 "max": 16
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -759,7 +759,7 @@
                 "max": 16
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -773,7 +773,7 @@
                 "max": 16
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -787,7 +787,7 @@
                 "max": 16
               }
             }
-		  ]
+          ]
         },
 
         {
@@ -818,7 +818,7 @@
                 "max": 4
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -829,7 +829,7 @@
               "function": "minecraft:set_nbt",
               "tag": "{display:{Lore:['{\"color\":\"red\",\"text\":\"Warning: This mob can one-shot you!\"}']}}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
@@ -840,7 +840,7 @@
               "function": "minecraft:set_nbt",
               "tag": "{display:{Lore:['{\"color\":\"red\",\"text\":\"Warning: This mob can one-shot you!\"}']}}"
             }
-		  ]
+          ]
         },
 
         {
@@ -855,7 +855,7 @@
                 "max": 4
               }
             }
-		  ]
+          ]
         },
 
         {

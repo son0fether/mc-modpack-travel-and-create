@@ -3,7 +3,7 @@
     {
       "rolls": 2,
       "entries": [
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:honeycomb",
@@ -17,7 +17,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:rail",
@@ -31,7 +31,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:quartz",
@@ -45,7 +45,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:glowstone",
@@ -59,7 +59,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "infernalexp:smooth_glowstone",
@@ -73,7 +73,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:amethyst_shard",
@@ -87,7 +87,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:raw_gold",
@@ -101,7 +101,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:lapis_lazuli",
@@ -115,7 +115,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:name_tag",
@@ -129,7 +129,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:gunpowder",
@@ -143,7 +143,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:golden_carrot",
@@ -157,7 +157,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:painting",
@@ -171,7 +171,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:soul_lantern",
@@ -185,7 +185,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:book",
@@ -197,9 +197,9 @@
                 "max": 4
               }
             }
-		  ]
+          ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:glow_berries",
@@ -211,10 +211,10 @@
                 "max": 4
               }
             }
-		  ]
+          ]
         },
 
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "supplementaries:sconce_lever",
@@ -228,7 +228,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "supplementaries:candle_holder_black",
@@ -242,7 +242,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "supplementaries:bamboo_spikes",
@@ -256,7 +256,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "quark:obsidian_pressure_plate",
@@ -271,7 +271,7 @@
           ]
         },
 
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:egg",
@@ -286,141 +286,141 @@
           ]
         },
 
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:phantom_membrane"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:nautilus_shell"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:target"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:zombie_head"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:skeleton_skull"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:creeper_head"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:golden_apple"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:grass_block"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:milk_bucket"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:jukebox"
         },
 
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "valhelsia_structures:dungeon_door"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "supplementaries:enderman_head"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "earthtojavamobs:carved_melon"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "alexsmobs:ancient_dart"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "hammers:iron_hammer"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "create:red_sand_paper"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "smallships:oak_cog"
         },
 
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "horse_colors:horse_spawn_egg"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 3,
           "name": "horse_colors:donkey_spawn_egg"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "horse_colors:mule_spawn_egg"
         },
 
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "quark:abacus"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "festive_delight:creeper_cutter"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "simple_hot_air_balloons:red_hot_air_balloon_item"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "simple_hot_air_balloons:magenta_envelope_glider_helmet"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:iron_horse_armor"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "name": "supplementaries:slingshot"
         },
-		
-		{
+        
+        {
           "type": "minecraft:item",
           "weight": 20,
           "name": "minecraft:book",
@@ -431,82 +431,82 @@
           ]
         },
 
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "nethersdelight:iron_machete"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:iron_longsword"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:iron_twinblade"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:iron_rapier"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:iron_katana"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:iron_sai"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:iron_spear"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:iron_glaive"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:iron_warglaive"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:iron_cutlass"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:iron_claymore"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:iron_greathammer"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:iron_greataxe"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:iron_halberd"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:iron_scythe"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:iron_chakram",
@@ -518,10 +518,10 @@
                 "max": 2
               }
             }
-		  ]
+          ]
         },
 
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "nethersdelight:golden_machete",
@@ -531,7 +531,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:gold_longsword",
@@ -541,7 +541,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:gold_twinblade",
@@ -551,7 +551,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:gold_rapier",
@@ -561,7 +561,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:gold_katana",
@@ -571,7 +571,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:gold_sai",
@@ -581,7 +581,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:gold_spear",
@@ -591,7 +591,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:gold_glaive",
@@ -601,7 +601,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:gold_warglaive",
@@ -611,7 +611,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:gold_cutlass",
@@ -621,7 +621,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:gold_claymore",
@@ -631,7 +631,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:gold_greathammer",
@@ -641,7 +641,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:gold_greataxe",
@@ -651,7 +651,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:gold_halberd",
@@ -661,7 +661,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:gold_scythe",
@@ -671,7 +671,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:gold_chakram",
@@ -686,7 +686,7 @@
             {
               "function": "minecraft:enchant_randomly"
             }
-		  ]
+          ]
         }      ]
     }
   ]

@@ -3,9 +3,9 @@
     {
       "rolls": 2,
       "entries": [
-		{
+        {
           "type": "minecraft:tag",
-		  "weight": 1,
+          "weight": 1,
           "name": "minecraft:music_discs",
           "expand": true
         },
@@ -26,28 +26,28 @@
                 "max": 8
               }
             }
-		  ]
+          ]
         },
 
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "minecraft:enchanted_book",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{StoredEnchantments: [{lvl: 1s, id: \"minecraft:mending\"}]}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "minecraft:trident"
         },
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "minecraft:enchanted_golden_apple",
           "functions": [
             {
@@ -57,11 +57,11 @@
                 "max": 4
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "minecraft:shulker_shell",
           "functions": [
             {
@@ -71,11 +71,11 @@
                 "max": 16
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "minecraft:chorus_fruit",
           "functions": [
             {
@@ -85,11 +85,11 @@
                 "max": 16
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "minecraft:crying_obsidian",
           "functions": [
             {
@@ -99,12 +99,12 @@
                 "max": 8
               }
             }
-		  ]
+          ]
         },
 
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "savage_and_ravage:blast_proof_plating",
           "functions": [
             {
@@ -114,26 +114,26 @@
                 "max": 8
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 10,
+          "weight": 10,
           "name": "waystones:waystone"
         },
         {
           "type": "minecraft:item",
-		  "weight": 10,
+          "weight": 10,
           "name": "waystones:mossy_waystone"
         },
         {
           "type": "minecraft:item",
-		  "weight": 10,
+          "weight": 10,
           "name": "waystones:sandy_waystone"
         },
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "unusualend:end_blob",
           "functions": [
             {
@@ -143,11 +143,11 @@
                 "max": 8
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "unusualend:dragon_lamp",
           "functions": [
             {
@@ -157,272 +157,272 @@
                 "max": 4
               }
             }
-		  ]
+          ]
         },
 
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "botania:mana_tablet",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{mana: 500000}"
             }
-		  ]
+          ]
         },
 
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "quark:pickarang"
         },
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "quark:rainbow_rune"
         },
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "quark:blank_rune"
         },
 
         {
           "type": "minecraft:item",
-		  "weight": 3,
+          "weight": 3,
           "name": "quark:ancient_tome",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{StoredEnchantments: [{level: 4s, id: \"minecraft:feather_falling\"}]}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 3,
+          "weight": 3,
           "name": "quark:ancient_tome",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{StoredEnchantments: [{level: 3s, id: \"minecraft:thorns\"}]}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 3,
+          "weight": 3,
           "name": "quark:ancient_tome",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{StoredEnchantments: [{level: 5s, id: \"minecraft:sharpness\"}]}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 3,
+          "weight": 3,
           "name": "quark:ancient_tome",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{StoredEnchantments: [{level: 5s, id: \"minecraft:smite\"}]}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 3,
+          "weight": 3,
           "name": "quark:ancient_tome",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{StoredEnchantments: [{level: 5s, id: \"minecraft:bane_of_arthropods\"}]}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 3,
+          "weight": 3,
           "name": "quark:ancient_tome",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{StoredEnchantments: [{level: 2s, id: \"minecraft:knockback\"}]}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 3,
+          "weight": 3,
           "name": "quark:ancient_tome",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{StoredEnchantments: [{level: 2s, id: \"minecraft:fire_aspect\"}]}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 3,
+          "weight": 3,
           "name": "quark:ancient_tome",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{StoredEnchantments: [{level: 3s, id: \"minecraft:looting\"}]}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 3,
+          "weight": 3,
           "name": "quark:ancient_tome",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{StoredEnchantments: [{level: 3s, id: \"minecraft:sweeping\"}]}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 3,
+          "weight": 3,
           "name": "quark:ancient_tome",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{StoredEnchantments: [{level: 5s, id: \"minecraft:efficiency\"}]}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 3,
+          "weight": 3,
           "name": "quark:ancient_tome",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{StoredEnchantments: [{level: 3s, id: \"minecraft:unbreaking\"}]}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 3,
+          "weight": 3,
           "name": "quark:ancient_tome",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{StoredEnchantments: [{level: 3s, id: \"minecraft:fortune\"}]}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 3,
+          "weight": 3,
           "name": "quark:ancient_tome",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{StoredEnchantments: [{level: 5s, id: \"minecraft:power\"}]}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 3,
+          "weight": 3,
           "name": "quark:ancient_tome",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{StoredEnchantments: [{level: 2s, id: \"minecraft:punch\"}]}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 3,
+          "weight": 3,
           "name": "quark:ancient_tome",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{StoredEnchantments: [{level: 3s, id: \"minecraft:luck_of_the_sea\"}]}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 3,
+          "weight": 3,
           "name": "quark:ancient_tome",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{StoredEnchantments: [{level: 3s, id: \"minecraft:lure\"}]}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 3,
+          "weight": 3,
           "name": "quark:ancient_tome",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{StoredEnchantments: [{level: 3s, id: \"minecraft:loyalty\"}]}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 3,
+          "weight": 3,
           "name": "quark:ancient_tome",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{StoredEnchantments: [{level: 5s, id: \"minecraft:impaling\"}]}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 3,
+          "weight": 3,
           "name": "quark:ancient_tome",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{StoredEnchantments: [{level: 3s, id: \"minecraft:riptide\"}]}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 3,
+          "weight": 3,
           "name": "quark:ancient_tome",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{StoredEnchantments: [{level: 4s, id: \"minecraft:piercing\"}]}"
             }
-		  ]
+          ]
         },
 
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "twilightforest:steeleaf_sword",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{Enchantments: [{lvl: 2s, id: \"minecraft:looting\"}]}"
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "twilightforest:reappearing_block",
           "functions": [
             {
@@ -432,11 +432,11 @@
                 "max": 32
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "twilightforest:encased_smoker",
           "functions": [
             {
@@ -446,11 +446,11 @@
                 "max": 32
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "twilightforest:encased_fire_jet",
           "functions": [
             {
@@ -460,12 +460,12 @@
                 "max": 32
               }
             }
-		  ]
+          ]
         },
 
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "supplementaries:end_stone_lamp",
           "functions": [
             {
@@ -475,11 +475,11 @@
                 "max": 16
               }
             }
-		  ]
+          ]
         },
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "supplementaries:bomb_blue",
           "functions": [
             {
@@ -489,54 +489,54 @@
                 "max": 64
               }
             }
-		  ]
+          ]
         },
 
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "hammers:enhanced_diamond_hammer"
         },
 
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "shieldexp:paragon_shield"
         },
 
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "byg:ametrine_helmet"
         },
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "byg:ametrine_chestplate"
         },
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "byg:ametrine_leggings"
         },
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "byg:ametrine_boots"
         },
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "byg:ametrine_horse_armor"
         },
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "byg:pendorite_horse_armor"
         },
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "byg:pendorite_battleaxe"
         },
 
@@ -623,86 +623,86 @@
 
         {
           "type": "minecraft:item",
-		  "weight": 30,
+          "weight": 30,
           "name": "horse_colors:netherite_horse_armor"
         },
 
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "nethersdelight:netherite_machete"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:netherite_longsword"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:netherite_twinblade"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:netherite_rapier"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:netherite_katana"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:netherite_sai"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:netherite_spear"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:netherite_glaive"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:netherite_warglaive"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:netherite_cutlass"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:netherite_claymore"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:netherite_greathammer"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:netherite_greataxe"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:netherite_halberd"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:netherite_scythe"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "name": "simplyswords:netherite_chakram",
@@ -714,7 +714,7 @@
                 "max": 2
               }
             }
-		  ]
+          ]
         }
       ]
     }
