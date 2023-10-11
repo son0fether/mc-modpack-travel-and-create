@@ -1,6 +1,14 @@
 # Changelog
 
-1.1.10
+# 1.1.11
+
+Improvement: updated lootbags
+Added ambergris to Legendary lootbags
+Moved several existing lootbag items to lower tiers
+Increased maximum number of items for many items in lootbags
+
+
+# 1.1.10
 
 Downgraded Colored Brick Mod to 4.3 again https://www.curseforge.com/minecraft/mc-mods/colored-bricks-mod/files/3915765
 
