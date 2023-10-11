@@ -18,10 +18,28 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{display:{Lore:['[{\"text\":\"Use on a mob to make it \", \"color\":\"green\"}, {\"text\":\"r\", \"color\":\"dark_purple\"}, {\"text\":\"a\", \"color\":\"light_purple\"}, {\"text\":\"i\", \"color\":\"blue\"}, {\"text\":\"n\", \"color\":\"green\"}, {\"text\":\"b\", \"color\":\"yellow\"}, {\"text\":\"o\", \"color\":\"gold\"}, {\"text\":\"w\", \"color\":\"red\"}, {\"text\":\".\", \"color\":\"green\"}]']}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
             }
 		  ]
         },
 
+        {
+          "type": "minecraft:item",
+		  "weight": 30,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments: [{lvl: 1s, id: \"minecraft:mending\"}]}"
+            }
+		  ]
+        },
         {
           "type": "minecraft:item",
 		  "weight": 30,
@@ -50,7 +68,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 4
+                "max": 16
               }
             }
 		  ]
@@ -83,20 +101,6 @@
             }
 		  ]
         },
-        {
-          "type": "minecraft:item",
-		  "weight": 30,
-          "name": "minecraft:wither_rose",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-		  ]
-        },
 
         {
           "type": "minecraft:item",
@@ -107,7 +111,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 4
+                "max": 8
               }
             }
 		  ]
@@ -136,7 +140,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 4
+                "max": 8
               }
             }
 		  ]
@@ -152,6 +156,18 @@
                 "min": 1,
                 "max": 4
               }
+            }
+		  ]
+        },
+
+        {
+          "type": "minecraft:item",
+		  "weight": 30,
+          "name": "botania:mana_tablet",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{mana: 500000}"
             }
 		  ]
         },
@@ -407,18 +423,13 @@
         {
           "type": "minecraft:item",
 		  "weight": 30,
-          "name": "twilightforest:moon_dial"
-        },
-        {
-          "type": "minecraft:item",
-		  "weight": 30,
           "name": "twilightforest:reappearing_block",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 16
+                "max": 32
               }
             }
 		  ]
@@ -432,7 +443,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 8
+                "max": 32
               }
             }
 		  ]
@@ -446,7 +457,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 8
+                "max": 32
               }
             }
 		  ]
@@ -461,7 +472,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 16
               }
             }
 		  ]
@@ -475,7 +486,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 32
+                "max": 64
               }
             }
 		  ]

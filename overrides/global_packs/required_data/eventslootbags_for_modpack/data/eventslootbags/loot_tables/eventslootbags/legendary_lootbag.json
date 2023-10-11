@@ -46,17 +46,6 @@
 		  "weight": 10,
           "name": "minecraft:dragon_head"
         },
-        {
-          "type": "minecraft:item",
-		  "weight": 10,
-          "name": "minecraft:enchanted_book",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{StoredEnchantments: [{lvl: 1s, id: \"minecraft:mending\"}]}"
-            }
-		  ]
-        },
 
         {
           "type": "minecraft:item",
@@ -76,14 +65,9 @@
         {
           "type": "minecraft:item",
 		  "weight": 10,
-          "name": "botania:mana_tablet",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{mana: 500000}"
-            }
-		  ]
+          "name": "alexsmobs:ambergris"
         },
+
         {
           "type": "minecraft:item",
 		  "weight": 10,

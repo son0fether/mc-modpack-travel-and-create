@@ -13,6 +13,20 @@
             }
           ]
         },
+        {
+          "type": "minecraft:item",
+		  "weight": 20,
+          "name": "minecraft:wither_rose",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 12,
+                "max": 12
+              }
+            }
+		  ]
+        },
 
 		{
           "type": "minecraft:item",
@@ -319,6 +333,11 @@
 
         {
           "type": "minecraft:item",
+		  "weight": 10,
+          "name": "twilightforest:moon_dial"
+        },
+        {
+          "type": "minecraft:item",
           "weight": 10,
           "name": "twilightforest:ice_bow"
         },
@@ -399,7 +418,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 8
+                "max": 2
               }
             }
 		  ]
@@ -469,7 +488,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 8
               }
             }
 		  ]
@@ -483,7 +502,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 4
               }
             }
 		  ]
@@ -497,7 +516,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 4
               }
             }
 		  ]
@@ -539,7 +558,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 4
+                "max": 16
               }
             }
 		  ]
@@ -563,7 +582,16 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "minecraft:anvil"
+          "name": "minecraft:anvil",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+		  ]
         },
         {
           "type": "minecraft:item",
@@ -600,7 +628,16 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "botania:black_lotus"
+          "name": "botania:black_lotus",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 32
+              }
+            }
+		  ]
         },
         {
           "type": "minecraft:item",
@@ -615,13 +652,31 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "uppers:upper"
+          "name": "uppers:upper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+		  ]
         },
 
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "quark:redstone_randomizer"
+          "name": "quark:redstone_randomizer",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+		  ]
         },
         {
           "type": "minecraft:item",
@@ -637,7 +692,16 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "supplementaries:soap"
+          "name": "supplementaries:soap",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 16
+              }
+            }
+		  ]
         },
         {
           "type": "minecraft:item",
@@ -647,7 +711,16 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "supplementaries:antique_ink"
+          "name": "supplementaries:antique_ink",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+		  ]
         },
         {
           "type": "minecraft:item",
@@ -663,22 +736,58 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "twilightforest:firefly"
+          "name": "twilightforest:firefly",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 16
+              }
+            }
+		  ]
         },
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "twilightforest:cicada"
+          "name": "twilightforest:cicada",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 16
+              }
+            }
+		  ]
         },
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "twilightforest:firefly_jar"
+          "name": "twilightforest:firefly_jar",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 16
+              }
+            }
+		  ]
         },
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "twilightforest:transformation_powder"
+          "name": "twilightforest:transformation_powder",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 16
+              }
+            }
+		  ]
         },
 
         {
@@ -743,7 +852,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 4
               }
             }
 		  ]
