@@ -1,5 +1,11 @@
 # Changelog
 
+# 1.1.12
+
+Added custom villager trades for Animal Tamer villager: Horse, Donkey, and Maggot
+The horse and donkey trades were accidentially omitted until now
+
+
 # 1.1.11
 
 Improvement: updated lootbags

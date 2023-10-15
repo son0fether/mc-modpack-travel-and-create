@@ -1,0 +1,60 @@
+{
+  "profession": "domesticationinnovation:animal_tamer",
+  "removeOtherTrades": false,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "horse_colors:horse_spawn_egg",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "domesticationinnovation:animal_tamer_horse_spawn_egg_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "horse_colors:donkey_spawn_egg",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "domesticationinnovation:animal_tamer_donkey_spawn_egg_for_emerald"
+    },
+    {
+      "offer": {
+        "itemKey": "alexsmobs:maggot",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 10,
+      "priceMultiplier": 0.1,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "alexsmobs:maggot_for_emerald"
+    }
+  ]
+}
