@@ -715,6 +715,12 @@
               }
             }
           ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "simplyswords:runic_tablet"
         }
       ]
     }
