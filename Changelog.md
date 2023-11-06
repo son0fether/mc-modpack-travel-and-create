@@ -1,5 +1,21 @@
 # Changelog
 
+# 1.1.13
+
+Updated a lot of mods
+
+Downgraded FastSuite to 4.0.0 because of Fairy Lights incompatibilities: 
+https://github.com/pau101/Fairy-Lights/issues/161
+
+Maintained Colored Bricks at 4.3 because of server start failures
+
+Tweaked loot tables, adding a missing Simply Swords legendary and moving down some loot to lower tiers
+
+Added Create Cafe-friendly tags to Pineapple Sides from Pineapple Delight and Coconut Slices from Ecologics
+
+Denylisted items in JEI from Create Cafe that are impossible to craft
+
+
 # 1.1.12
 
 Added custom villager trades for Animal Tamer villager: Horse, Donkey, and Maggot
