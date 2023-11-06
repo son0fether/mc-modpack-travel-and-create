@@ -2,10 +2,10 @@
   "parent": "tac_bingo:eat_food/row5/row5_col2_crimson_berry_pie_slice",
   "display": {
     "icon": {
-      "item": "createcafe:raspberry_iced_coffee"
+      "item": "createcafe:oreo_milk_tea"
     },
     "title": {
-      "translate": "Drink a Raspberry Iced Coffee"
+      "translate": "Drink an Oreo Milk Tea"
     },
     "description": {
       "translate": "From Create Cafe"
@@ -21,7 +21,7 @@
       "conditions": {
         "item": {
           "items": [
-            "createcafe:raspberry_iced_coffee"
+            "createcafe:oreo_milk_tea"
           ]
         }
       }

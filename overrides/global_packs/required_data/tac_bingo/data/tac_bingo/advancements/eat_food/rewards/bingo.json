@@ -162,7 +162,7 @@
                 "advancements": {
                   "tac_bingo:eat_food/row5/row5_col1_deluxe_cheesburger": true,
                   "tac_bingo:eat_food/row5/row5_col2_crimson_berry_pie_slice": true,
-                  "tac_bingo:eat_food/row5/row5_col3_raspberry_iced_coffee": true,
+                  "tac_bingo:eat_food/row5/row5_col3_oreo_milk_tea": true,
                   "tac_bingo:eat_food/row5/row5_col4_fish_taco": true,
                   "tac_bingo:eat_food/row5/row5_col5_crab_rangoon": true
                 }
@@ -263,7 +263,7 @@
                   "tac_bingo:eat_food/row2/row2_col3_salmonberry_gummy": true,
                   "tac_bingo:eat_food/row3/row3_col3_free_space": true,
                   "tac_bingo:eat_food/row4/row4_col3_chorus_fruit_popsicle": true,
-                  "tac_bingo:eat_food/row5/row5_col3_raspberry_iced_coffee": true
+                  "tac_bingo:eat_food/row5/row5_col3_oreo_milk_tea": true
                 }
               }
             }
