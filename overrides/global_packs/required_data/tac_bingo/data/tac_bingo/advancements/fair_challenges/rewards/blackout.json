@@ -8,7 +8,7 @@
       "text": "Blackout!"
     },
     "description": {
-      "text": "Reward: Luck up: additional +1 luck (fortune/looting)"
+      "text": "Reward: Luck up: additional +1 luck (fishing/chest loot)"
     },
     "frame": "challenge",
     "show_toast": true,

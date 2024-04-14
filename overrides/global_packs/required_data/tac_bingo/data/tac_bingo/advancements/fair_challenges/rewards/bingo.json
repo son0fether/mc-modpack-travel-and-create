@@ -8,7 +8,7 @@
       "text": "Bingo!"
     },
     "description": {
-      "text": "Reward: Luck up: +1 luck (fortune/looting)"
+      "text": "Reward: Luck up: +1 luck (fishing/chest loot)"
     },
     "frame": "challenge",
     "show_toast": true,

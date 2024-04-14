@@ -2,14 +2,13 @@
   "parent": "tac_bingo:capture_mobs/row1/row1_col1_dropbear",
   "display": {
     "icon": {
-      "item": "portablemobs:master_capture_cell",
-	  "nbt": "{has_entity: 1b, entity_type: \"infernalexp:blackstone_dwarf\"}"
+      "item": "lilwings:butterfly_net"
     },
     "title": {
-      "translate": "Capture a Blackstone Dwarf"
+      "translate": "Capture a Red Apple Butterfly"
     },
     "description": {
-      "translate": "Dangerous, found in special Nether structures"
+      "translate": "Helpful, found in oak forests"
     },
     "frame": "task",
     "show_toast": true,
@@ -23,11 +22,13 @@
         "item": {
           "items": [
             "portablemobs:basic_capture_cell",
-            "portablemobs:master_capture_cell"
+            "portablemobs:master_capture_cell",
+			"lilwings:butterfly_net",
+			"lilwings:enderfly_net"
           ]
         },
         "entity": {
-          "type": "infernalexp:blackstone_dwarf"
+          "type": "lilwings:red_applefly_butterfly"
         }
       }
     }

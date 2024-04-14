@@ -1,5 +1,5 @@
 {
-  "parent": "tac_bingo:capture_mobs/row1/row1_col2_blackstone_dwarf",
+  "parent": "tac_bingo:capture_mobs/row1/row1_col2_red_applefly_butterfly",
   "display": {
     "icon": {
       "item": "portablemobs:master_capture_cell",
