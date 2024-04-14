@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "alexsmobs:rainbow_jelly"},
+    {"item": "upgrade_aquatic:prismarine_rod_bundle"},
+    {"item": "minecraft:pink_dye"}
+  ],
+  "result": {
+    "item": "upgrade_aquatic:pink_jelly_torch",
+    "count": 1
+  }
+}
