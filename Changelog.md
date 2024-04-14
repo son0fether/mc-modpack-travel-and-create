@@ -1,5 +1,16 @@
 # Changelog
 
+# 1.1.14
+
+Updated quite a lot of mods, notably Create: Steam and Rails
+
+Maintained FastSuite at 4.0.0 and Colored Bricks at 4.3
+
+Swapped capture advancement for Infernal Expansion Blackstone Dwarf (not findable) to Lil Wings Red Applefly Butterfly (including capture in nets)
+
+Added crafting recipes for Upgrade Aquatic Jelly Torches (not obtainable because those jellyfish do not spawn)
+
+
 # 1.1.13
 
 Updated a lot of mods
