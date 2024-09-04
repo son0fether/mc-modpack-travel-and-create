@@ -5,5 +5,17 @@
 			"upgrade_aquatic:great_thrasher"
 		],
 		"result": "deny"
+	},
+	{
+		"mob": ["bygonenether:corpor", "earthtojavamobs:skeleton_wolf"],
+		"dimension": "minecraft:the_nether",
+		"structure": "bygonenether:catacomb",
+		"result": "default"
+	},
+	{
+		"mob": ["bygonenether:corpor", "earthtojavamobs:skeleton_wolf"],
+		"dimension": "minecraft:the_nether",
+		"incontrol": true,
+		"result": "deny"
 	}
 ]
