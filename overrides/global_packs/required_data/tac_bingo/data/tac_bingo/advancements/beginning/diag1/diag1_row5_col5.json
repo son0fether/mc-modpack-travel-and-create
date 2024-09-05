@@ -2,8 +2,7 @@
   "parent": "tac_bingo:beginning/diag1/diag1_row4_col4",
   "display": {
     "icon": {
-      "item": "trophymanager:trophy",
-      "nbt": "{TrophyType: \"entity\", TrophyEntity: {entityType: \"horse_colors:horse_felinoid\"}}"
+      "item": "disenchanting:disenchanter"
     },
     "title": {
       "translate": "Up to Right: Row 5, Column 5"
@@ -29,7 +28,7 @@
               "type_specific": {
                 "type": "player",
                 "advancements": {
-                  "tac_bingo:beginning/row5/row5_col5_breed_horses": true
+                  "tac_bingo:beginning/row5/row5_col5_disenchanter": true
                 }
               }
             }

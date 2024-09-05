@@ -10,7 +10,7 @@
     "description": {
       "translate": "Craft a Disenchanter from Disenchanting"
     },
-    "frame": "task",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
