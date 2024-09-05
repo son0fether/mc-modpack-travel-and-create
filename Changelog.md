@@ -1,5 +1,30 @@
 # Changelog
 
+# 1.1.15
+
+Added mods for blocks and recipes:
+- Custom Compost (adds compost based on config, see below)
+- Waxable Coral (apply comb to coral, includes Upgrade Aquatic coral)
+
+Added mods for interesting armor:
+- Create Theme Armor Addon
+- Full Turtle Armor
+- Jet and Elia's Armors
+- Witchy Wearables
+
+Not a mass update of mods
+
+Updated Dramatic Doors, hoping for more recipes
+
+Changes:
+- Added spawns for BN corpor and E2J skeleton wolves in BN catacombs, to help with bingo
+- Made avocado pits and pineapple crop plants compostable
+
+Bugfixes:
+- Fixed advancement trigger for Beginning bingo diagonal, row 5 col 5
+- Fixed advancement frames for Beginning row 5 col 4 and row 5 col 5
+
+
 # 1.1.14
 
 Updated quite a lot of mods, notably Create: Steam and Rails
